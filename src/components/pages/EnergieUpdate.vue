@@ -109,12 +109,6 @@ export default {
 <style lang="sass" scoped>
 @import "~bulma/sass/utilities/_all"
 @import "~bulma/sass/base/helpers"
-$red: #ff615d
-$light-green: #d0e4e0
-$light-blue: #bbdef7
-$dark-blue: #1A4667
-$blue: #2C90E9
-$light-grey: #DEDEDE
 $grassy-green: #B9D670
 
 .hero

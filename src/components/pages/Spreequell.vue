@@ -1,6 +1,5 @@
 <template lang="pug">
 #spreequell.page
-
   section.hero
     .hero-body.no-padding
       .columns
@@ -111,10 +110,9 @@ export default {
 <style lang="sass" scoped>
 @import "~bulma/sass/utilities/_all"
 @import "~bulma/sass/base/helpers"
-$red: #ff615d
-$light-green: #d0e4e0
+
 $light-blue: #bbdef7
-$blue: #2C90E9
+
 
 .hero
   background: $light-blue

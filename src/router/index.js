@@ -11,8 +11,8 @@ import Asd from '@/components/pages/Asd'
 import Rueckblende from '@/components/pages/Rueckblende'
 import EnergieUpdate from '@/components/pages/EnergieUpdate'
 import Hartmannbund from '@/components/pages/Hartmannbund'
-import Metagate from '@/components/pages/Metagate'
-import FullPageMenu from '@/components/pages/FullPageMenu'
+// import Metagate from '@/components/pages/Metagate'
+// import FullPageMenu from '@/components/pages/FullPageMenu'
 
 Vue.use(Router)
 Vue.use(Meta)
@@ -34,7 +34,7 @@ export default new Router({
     { path: '/cases/hartmannbund', component: Hartmannbund },
     { path: '/cases/energie-update', component: EnergieUpdate },
     // { path: '/cases/:slug', component: CaseSingle },
-    { path: '/cases/metagate', component: Metagate },
-    { path: '/menu', component: FullPageMenu }
+    // { path: '/cases/metagate', component: Metagate },
+    // { path: '/menu', component: FullPageMenu }
   ]
 })

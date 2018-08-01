@@ -107,7 +107,6 @@ export default {
 @import "~bulma/sass/utilities/_all"
 @import "~bulma/sass/base/helpers"
 $red: #ff615d
-$light-green: #d0e4e0
 $light-blue: #bbdef7
 
 .hero
