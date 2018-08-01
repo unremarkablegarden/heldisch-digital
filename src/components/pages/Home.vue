@@ -162,8 +162,8 @@ export default {
 
 
 <style lang="sass" scoped>
-  @import "node_modules/@glidejs/glide/src/assets/sass/glide.core"
-  @import "node_modules/@glidejs/glide/src/assets/sass/glide.theme"
+  @import "~@glidejs/glide/src/assets/sass/glide.core"
+  @import "~@glidejs/glide/src/assets/sass/glide.theme"
   @import "~bulma/sass/utilities/_all"
   @import "~bulma/sass/base/helpers"
 

@@ -110,7 +110,7 @@ export default {
 <style lang="sass" scoped>
 @import "~bulma/sass/utilities/_all"
 @import "~bulma/sass/base/helpers"
-$puke-green: #E5DF92
+@import "../../assets/sass/variables.sass"
 
 .hero
   background: $puke-green

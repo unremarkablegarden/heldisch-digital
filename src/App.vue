@@ -18,4 +18,5 @@
 <style lang="sass">
   @import './assets/sass/bulma.sass'
   @import './assets/sass/master.sass'
+  @import './assets/sass/variables.sass'
 </style>

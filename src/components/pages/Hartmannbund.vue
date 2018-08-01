@@ -106,8 +106,7 @@ export default {
 <style lang="sass" scoped>
 @import "~bulma/sass/utilities/_all"
 @import "~bulma/sass/base/helpers"
-$red: #ff615d
-$light-blue: #bbdef7
+@import "../../assets/sass/variables.sass"
 
 .hero
   background: $light-blue

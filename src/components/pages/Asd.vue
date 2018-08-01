@@ -104,7 +104,8 @@ export default {
 <style lang="sass" scoped>
 @import "~bulma/sass/utilities/_all"
 @import "~bulma/sass/base/helpers"
-$light-grey: #DEDEDE
+@import "../../assets/sass/variables.sass"
+
 .hero
   background: $light-grey
   .container

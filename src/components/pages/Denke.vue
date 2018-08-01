@@ -71,6 +71,7 @@ export default {
 <style lang="sass" scoped>
 @import "~bulma/sass/utilities/_all"
 @import "~bulma/sass/base/helpers"
+
 .page
   text-align: center
   line-height: 1.5

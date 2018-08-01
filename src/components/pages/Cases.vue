@@ -101,7 +101,7 @@
 export default {
   name: 'app',
   beforeCreate: function() {
-      document.body.className = 'cases';
+    document.body.className = 'cases';
   }
 }
 </script>
@@ -109,12 +109,7 @@ export default {
 <style lang="sass" scoped>
 @import "~bulma/sass/utilities/_all"
 @import "~bulma/sass/base/helpers"
-
-$spreequell: #4e92df
-$asd: #DEDEDE
-$rueckblende: #E5DF92
-$energie-update: #B9D670
-$hartmannbund: #bbdef7
+@import "../../assets/sass/variables.sass"
 
 .page
   line-height: 1.5
