@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="78px" viewBox="0 0 60 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>marker1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-9.4%" y="-5.6%" width="120.8%" height="116.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="1" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M26,70.6733081 C26,70.6733081 49.9997979,45.4913358 51.748819,29.4708573 C53.3665295,18.6298917 51.6868504,0.0396201348 26,0.0396201348" id="path-2"></path>
+        <path d="M26.1873719,70.6733081 C26.1873719,70.6733081 2.18757397,45.4913358 0.438552873,29.4708573 C-1.17915765,18.6298917 0.500521447,0.0396201348 26.1873719,0.0396201348" id="path-3"></path>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="start1" transform="translate(-622.000000, -6132.000000)">
+            <g id="marker1" filter="url(#filter-1)" transform="translate(625.000000, 6134.000000)">
+                <g id="Path-6">
+                    <use stroke="#BDB4B4" stroke-width="3" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <use stroke="#000000" stroke-width="2" xlink:href="#path-2"></use>
+                </g>
+                <g id="Path-6-Copy">
+                    <use stroke="#BDB4B4" stroke-width="3" fill="#E5E5E5" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <use stroke="#000000" stroke-width="2" xlink:href="#path-3"></use>
+                </g>
+                <g id="Group-2-Copy" transform="translate(7.000000, 14.000000)">
+                    <rect id="Rectangle-5-Copy-2" fill="#363636" x="0" y="0" width="37.9955082" height="8.230211" rx="4"></rect>
+                    <rect id="Rectangle-5-Copy-3" fill="#363636" x="0" y="13.7668266" width="37.9955082" height="8.230211" rx="4"></rect>
+                    <path d="M19.087448,0 L33.985595,0 C36.2002089,0 37.9955082,1.78583321 37.9955082,3.9945611 L37.9955082,4.2356499 C37.9955082,6.44178508 36.1996374,8.230211 33.985595,8.230211 L19.087448,8.230211 L19.087448,0 Z" id="Rectangle-5-Copy-5" fill="#5E5E5E"></path>
+                    <path d="M19.087448,13.7668266 L33.985595,13.7668266 C36.2002089,13.7668266 37.9955082,15.5526598 37.9955082,17.7613877 L37.9955082,18.0024765 C37.9955082,20.2086117 36.1996374,21.9970376 33.985595,21.9970376 L19.087448,21.9970376 L19.087448,13.7668266 Z" id="Rectangle-5-Copy-4" fill="#5E5E5E"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

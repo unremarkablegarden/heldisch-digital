@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="875px" height="162px" viewBox="0 0 875 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-5.1%" y="-5.1%" width="110.3%" height="110.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="1.47058824" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <circle id="path-2" cx="43" cy="43" r="43"></circle>
+        <filter x="-1.7%" y="-1.7%" width="103.5%" height="103.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-5.1%" y="-5.1%" width="110.3%" height="110.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="1.47058824" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <circle id="path-5" cx="43" cy="43" r="43"></circle>
+        <filter x="-1.7%" y="-1.7%" width="103.5%" height="103.5%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-5.1%" y="-5.1%" width="110.3%" height="110.3%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="1.47058824" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <circle id="path-8" cx="43" cy="43" r="43"></circle>
+        <filter x="-1.7%" y="-1.7%" width="103.5%" height="103.5%" filterUnits="objectBoundingBox" id="filter-9">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-226.000000, -38.000000)">
+            <g id="Group" transform="translate(228.000000, 38.000000)">
+                <g id="Group-3-Copy" transform="translate(78.000000, 0.000000)" fill="#FCC000">
+                    <rect id="Rectangle-2" x="0" y="60" width="17" height="56" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy" x="27" y="35" width="17" height="81" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-2" x="54" y="14" width="17" height="102" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-3" x="81" y="0" width="17" height="116" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-4" x="108" y="6" width="17" height="110" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-5" x="135" y="23" width="17" height="93" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-6" x="162" y="35" width="17" height="81" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-7" x="189" y="51" width="17" height="65" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-8" x="216" y="67" width="17" height="49" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-12" x="386" y="101" width="17" height="15" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-13" x="413" y="93" width="17" height="23" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-14" x="440" y="84" width="17" height="32" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-15" x="467" y="76" width="17" height="40" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-16" x="494" y="70" width="17" height="46" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-17" x="521" y="67" width="17" height="49" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-18" x="548" y="65" width="17" height="51" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-19" x="575" y="67" width="17" height="49" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-20" x="602" y="70" width="17" height="46" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-21" x="629" y="76" width="17" height="40" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-22" x="656" y="84" width="17" height="32" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-23" opacity="0.596898321" x="683" y="93" width="17" height="23" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-9" x="243" y="84" width="17" height="32" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-10" x="270" y="93" width="17" height="23" rx="2"></rect>
+                    <rect id="Rectangle-2-Copy-11" x="297" y="101" width="17" height="15" rx="2"></rect>
+                </g>
+                <path d="M46,115.320312 C46,115.320312 140.367188,5 173.910156,5 C180.946794,5 350.360682,111.347645 425.1875,115.320312 C455.893345,116.950531 560.020142,68.7104022 631.808594,68.4882812 C703.597045,68.2661603 807.756084,115.320312 807.756084,115.320312" id="Line-Copy" stroke="#FF4647" stroke-width="3" stroke-linecap="square"></path>
+                <g id="Group-2-Copy-5" transform="translate(0.000000, 70.000000)">
+                    <circle id="Oval-2-Copy-3" fill="#9C9C9C" filter="url(#filter-1)" cx="44" cy="46" r="43"></circle>
+                    <g id="Oval-2" filter="url(#filter-3)">
+                        <use stroke="#9A9292" stroke-width="3" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <use stroke="#000000" stroke-width="1" xlink:href="#path-2"></use>
+                    </g>
+                </g>
+                <g id="Group-2-Copy-6" transform="translate(383.000000, 70.000000)">
+                    <circle id="Oval-2-Copy-3" fill="#9C9C9C" filter="url(#filter-4)" cx="44" cy="46" r="43"></circle>
+                    <g id="Oval-2" filter="url(#filter-6)">
+                        <use stroke="#9A9292" stroke-width="3" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <use stroke="#000000" stroke-width="1" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+                <g id="Group-2-Copy-7" transform="translate(783.000000, 70.000000)">
+                    <circle id="Oval-2-Copy-3" fill="#9C9C9C" filter="url(#filter-7)" cx="44" cy="46" r="43"></circle>
+                    <g id="Oval-2" filter="url(#filter-9)">
+                        <use stroke="#9A9292" stroke-width="3" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-8"></use>
+                        <use stroke="#000000" stroke-width="1" xlink:href="#path-8"></use>
+                    </g>
+                </g>
+                <path d="M45.902,125 C46.226,125 46.406,124.82 46.406,124.46 L46.406,99.8 C46.406,99.44 46.226,99.26 45.902,99.26 L43.13,99.26 C42.878,99.26 42.662,99.296 42.482,99.44 L36.326,103.616 C36.074,103.832 36.002,104.12 36.182,104.372 L37.658,106.748 C37.874,107.072 38.126,107.108 38.378,106.928 L42.194,104.3 L42.194,124.46 C42.194,124.82 42.374,125 42.734,125 L45.902,125 Z" id="1-copy" fill="#FF4647"></path>
+                <path d="M432.913709,125 C433.273709,125 433.453709,124.82 433.453709,124.46 L433.453709,121.652 C433.453709,121.292 433.273709,121.112 432.913709,121.112 L422.689709,121.112 C424.993709,118.952 426.901709,116.936 428.053709,115.604 C431.113709,112.148 433.057709,109.52 433.057709,106.136 C433.057709,101.312 429.529709,98.828 424.993709,98.828 C421.033709,98.828 418.513709,100.808 416.857709,102.608 C416.641709,102.86 416.641709,103.112 416.821709,103.328 L418.513709,105.632 C418.729709,105.92 419.017709,105.92 419.233709,105.668 C420.601709,104.264 422.365709,102.788 424.993709,102.788 C427.729709,102.788 428.773709,104.48 428.773709,106.208 C428.773709,108.728 426.577709,111.176 423.805709,114.056 L416.497709,121.652 C416.317709,121.832 416.245709,122.012 416.245709,122.3 L416.245709,124.46 C416.245709,124.82 416.425709,125 416.749709,125 L432.913709,125 Z" id="2-copy" fill="#FF4647"></path>
+                <path d="M833.687709,116.792 C833.687709,112.04 829.979709,109.412 826.163709,109.52 L826.127709,109.448 L832.643709,102.536 C832.787709,102.356 832.895709,102.14 832.895709,101.888 L832.895709,99.8 C832.895709,99.44 832.715709,99.26 832.391709,99.26 L817.703709,99.26 C817.379709,99.26 817.199709,99.44 817.199709,99.8 L817.199709,102.608 C817.199709,102.968 817.379709,103.148 817.703709,103.148 L827.459709,103.148 C826.775709,103.688 825.083709,105.452 824.399709,106.172 L820.871709,110.024 C820.655709,110.276 820.619709,110.528 820.727709,110.78 L821.411709,112.256 C821.555709,112.508 821.771709,112.652 822.059709,112.58 C822.887709,112.4 823.787709,112.328 824.327709,112.328 C827.603709,112.328 829.403709,113.804 829.403709,116.684 C829.403709,119.816 827.459709,121.472 824.723709,121.472 C821.807709,121.472 820.223709,120.5 818.459709,119.24 C818.207709,119.024 817.919709,119.024 817.703709,119.24 L815.939709,121.292 C815.723709,121.544 815.723709,121.796 815.939709,122.048 C818.135709,123.956 820.691709,125.432 824.723709,125.432 C829.871709,125.432 833.687709,122.156 833.687709,116.792 Z" id="3-copy" fill="#FF4647"></path>
+            </g>
+        </g>
+    </g>
+</svg>

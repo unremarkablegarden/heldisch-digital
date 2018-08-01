@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="286px" height="162px" viewBox="67.5 0 286 162" enable-background="new 67.5 0 286 162" xml:space="preserve">
+<filter  height="103.5%" width="103.5%" y="-1.7%" x="-1.7%" id="filter-6" filterUnits="objectBoundingBox">
+	<feGaussianBlur  in="SourceGraphic" stdDeviation="0"></feGaussianBlur>
+</filter>
+<filter  height="110.3%" width="110.3%" y="-5.1%" x="-5.1%" id="filter-4" filterUnits="objectBoundingBox">
+	<feGaussianBlur  in="SourceGraphic" stdDeviation="1.47058824"></feGaussianBlur>
+</filter>
+<title>Group</title>
+<desc>Created with Sketch.</desc>
+<g id="Welcome">
+	<g id="Artboard-Copy" transform="translate(-226.000000, -38.000000)">
+		<g id="Group" transform="translate(228.000000, 38.000000)">
+			<g id="Group-3-Copy" transform="translate(78.000000, 0.000000)">
+				<path id="Rectangle-2-Copy-8" fill="#FCC000" d="M-3,67h13c1.105,0,2,0.895,2,2v45c0,1.105-0.895,2-2,2H-3c-1.105,0-2-0.895-2-2
+					V69C-5,67.895-4.105,67-3,67z"/>
+				<path id="Rectangle-2-Copy-12" fill="#FCC000" d="M167,101h13c1.105,0,2,0.895,2,2v11c0,1.105-0.895,2-2,2h-13
+					c-1.105,0-2-0.895-2-2v-11C165,101.895,165.895,101,167,101z"/>
+				<path id="Rectangle-2-Copy-13" fill="#FCC000" d="M194,93h13c1.105,0,2,0.895,2,2v19c0,1.105-0.895,2-2,2h-13
+					c-1.105,0-2-0.895-2-2V95C192,93.895,192.895,93,194,93z"/>
+				<path id="Rectangle-2-Copy-14" fill="#FCC000" d="M221,84h13c1.105,0,2,0.895,2,2v28c0,1.105-0.895,2-2,2h-13
+					c-1.105,0-2-0.895-2-2V86C219,84.895,219.895,84,221,84z"/>
+				<path id="Rectangle-2-Copy-15" fill="#FCC000" d="M248,76h13c1.105,0,2,0.895,2,2v36c0,1.105-0.895,2-2,2h-13
+					c-1.105,0-2-0.895-2-2V78C246,76.895,246.895,76,248,76z"/>
+				<path id="Rectangle-2-Copy-9" fill="#FCC000" d="M24,84h13c1.105,0,2,0.895,2,2v28c0,1.105-0.895,2-2,2H24c-1.105,0-2-0.895-2-2
+					V86C22,84.895,22.895,84,24,84z"/>
+				<path id="Rectangle-2-Copy-10" fill="#FCC000" d="M51,93h13c1.105,0,2,0.895,2,2v19c0,1.105-0.895,2-2,2H51
+					c-1.105,0-2-0.895-2-2V95C49,93.895,49.895,93,51,93z"/>
+				<path id="Rectangle-2-Copy-11" fill="#FCC000" d="M78,101h13c1.105,0,2,0.895,2,2v11c0,1.105-0.895,2-2,2H78
+					c-1.105,0-2-0.895-2-2v-11C76,101.895,76.895,101,78,101z"/>
+			</g>
+			<path id="Line-Copy_1_" fill="none" stroke="#FF4647" stroke-width="3" stroke-linecap="square" d="M70.513,67.476
+				c48.18,23.965,100.323,46.074,133.675,47.844c22.416,1.19,83.959-24.197,143.485-38.078"/>
+			<g id="Group-2-Copy-6" transform="translate(383.000000, 70.000000)">
+				<g id="Oval-2-Copy-3_1_" filter="url(#filter-4)">
+					<circle fill="#9C9C9C" cx="-177" cy="46" r="43"/>
+				</g>
+				<g id="Oval-2_1_" filter="url(#filter-6)">
+					<g>
+						<circle id="path-5_4_" fill="#F4F4F4" stroke="#9A9292" stroke-width="3" cx="-178" cy="43" r="43"/>
+					</g>
+					<g>
+						<circle id="path-5_1_" fill="none" stroke="#000000" cx="-178" cy="43" r="43"/>
+					</g>
+				</g>
+			</g>
+			<path id="_x32_-copy" fill="#FF4647" d="M211.914,125c0.36,0,0.54-0.18,0.54-0.54v-2.808c0-0.36-0.18-0.54-0.54-0.54H201.69
+				c2.304-2.16,4.212-4.176,5.364-5.508c3.06-3.456,5.004-6.084,5.004-9.468c0-4.824-3.528-7.308-8.064-7.308
+				c-3.96,0-6.48,1.98-8.136,3.78c-0.216,0.252-0.216,0.504-0.036,0.72l1.692,2.304c0.216,0.288,0.504,0.288,0.72,0.036
+				c1.368-1.404,3.132-2.88,5.76-2.88c2.736,0,3.78,1.692,3.78,3.42c0,2.52-2.196,4.968-4.968,7.848l-7.308,7.596
+				c-0.18,0.18-0.252,0.36-0.252,0.648v2.16c0,0.36,0.18,0.54,0.504,0.54C195.75,125,211.914,125,211.914,125z"/>
+		</g>
+	</g>
+</g>
+</svg>
