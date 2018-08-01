@@ -61,24 +61,13 @@
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  beforeCreate: function() {
+    document.body.className = 'denke';
+  }
 }
 </script>
 
-
-<style lang="sass">
-  #masthead
-    #menu-button
-      border-color: #fbbf2c !important
-      .burger
-        border-color: #fbbf2c !important
-        .line
-          background: #fbbf2c!important
-    #logo.pink
-      display: none
-    #logo.orange
-      display: block
-</style>
 <style lang="sass" scoped>
 @import "~bulma/sass/utilities/_all"
 @import "~bulma/sass/base/helpers"

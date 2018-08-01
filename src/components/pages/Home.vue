@@ -115,7 +115,7 @@
           .name Mikael
           p Lorum ipsum bae
   section.section#kontakt
-    img(src='../../assets/img/Map/map_static.jpg')
+    img(src='../../assets/img/map/map_static.jpg')
   section.section.last
     .columns
       .column.is-8.is-offset-1
@@ -139,8 +139,10 @@ import Glide from '@glidejs/glide'
 
 export default {
   name: 'app',
+  beforeCreate: function() {
+      document.body.className = 'home';
+  },
   mounted () {
-
     new Glide('.glide', {
       type: 'carousel',
       perView: 3,
@@ -158,20 +160,6 @@ export default {
 }
 </script>
 
-<style lang="sass">
-  #masthead
-    background: #fff
-    #menu-button
-      border-color: #FED4D5 !important
-      .burger
-        border-color: #FED4D5 !important
-        .line
-          background: #FED4D5!important
-    #logo.pink
-      display: block
-    #logo.orange
-      display: none
-</style>
 
 <style lang="sass" scoped>
   @import "node_modules/@glidejs/glide/src/assets/sass/glide.core"

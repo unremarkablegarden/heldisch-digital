@@ -42,8 +42,8 @@
 export default {
   name: 'mast-head',
   data: function() {
-		return{ isActive: false }
-	}
+    return{ isActive: false }
+  }
 }
 </script>
 
@@ -157,7 +157,7 @@ export default {
   .close-btn
     width: 50px
     +mobile
-      position: fixed
+      position: absolute
       top: 2rem
       right: 2rem
   .icon
@@ -171,8 +171,60 @@ export default {
     margin-left: 1rem
     width: 33.333vw
     margin-bottom: 0
-
 #logo.orange
   display: none
 
+.home
+  #masthead
+    background: #fff
+    #menu-button
+      border-color: #FED4D5
+      .burger
+        border-color: #FED4D5
+        .line
+          background: #FED4D5
+    #logo.pink
+      display: block
+    #logo.orange
+      display: none
+.denke
+  #masthead
+    #menu-button
+      border-color: #fbbf2c
+      .burger
+        border-color: #fbbf2c
+        .line
+          background: #fbbf2c
+    #logo.pink
+      display: none
+    #logo.orange
+      display: block
+.rueckblende, .energie-update, .hartmannbund, .asd, .rueckblende, .spreequell
+  #masthead
+    padding-bottom: 6em !important
+    #menu-button
+      border-color: #fff !important
+    #menu
+      border-color: #fff
+    .burger .line
+      background: #fff!important
+  #logo
+    display: none
+.rueckblende
+  #masthead
+    background: #E5DF92
+.energie-update
+  #masthead
+    background: #B9D670
+.asd
+  #masthead
+    background: #DEDEDE
+    padding-bottom: 3em
+.spreequell
+  #masthead
+    background: #bbdef7
+.hartmannbund
+  #masthead
+    background: #bbdef7
+    padding-bottom: 3em
 </style>

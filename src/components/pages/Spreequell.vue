@@ -65,7 +65,7 @@
         p Mit jeder freigeschalteten Einsendung wird 1 € an ausgewählte Jugendprojekte gespendet. Der Counter auf der Startseite zeigt die tagesaktuelle Spendensumme an..
 
   section.section.fakten-image.no-padding
-    img(src='../../assets/img/cases/spreequell/Mock_up_bottom@2x.png').bottom-img
+    img(src='../../assets/img/cases/spreequell/mock_up_bottom@2x.png').bottom-img
     img(src='../../assets/img/cases/spreequell/image_bottom_bg.jpg').bottom-img-bg
   section.section.fakten
     .columns
@@ -101,28 +101,12 @@
 
 <script>
 export default {
-  name: 'Spreequell'
+  name: 'Spreequell',
+  beforeCreate: function() {
+      document.body.className = 'spreequell';
+  }
 }
 </script>
-
-
-<style lang="sass">
-@import "~bulma/sass/utilities/_all"
-@import "~bulma/sass/base/helpers"
-#masthead
-  background: #bbdef7
-  padding-bottom: 3em
-  #menu-button
-    border-color: #fff !important
-  +desktop
-    padding-bottom: 6em
-  #menu
-    border-color: #fff
-  .burger .line
-    background: #fff!important
-#logo
-  display: none
-</style>
 
 <style lang="sass" scoped>
 @import "~bulma/sass/utilities/_all"

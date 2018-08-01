@@ -40,11 +40,11 @@
         h2 It's a date, doctor
         p Die jährlich stattfindende Hauptversammlung ist das höchste Beschlussgremium des energie-updatees, bei dem die rund 70 Delegierten den Haushalt des Verbandes beschließen und die Ziele des kommenden Geschäftsjahres verhandeln.
       .column.is-4.is-offset-1
-        img(src='../../assets/img/cases/energie-update/Placeholder_01@2x.png')
+        img(src='../../assets/img/cases/energie-update/placeholder_01@2x.png')
   section.section.showcase
     .columns
       .column.is-5.is-offset-1
-        img(src='../../assets/img/cases/energie-update/Placeholder_02@2x.png')
+        img(src='../../assets/img/cases/energie-update/placeholder_02@2x.png')
       .column.is-4
         h3 Nachhaltig: keine unnötig gedruckten Papiere mehr.
         p Diese App ermöglicht es den bis zu 130 Teilnehmern dieses Top-Events, auf die üblichen Printmaterialien, die eine solche Veranstaltung mit sich bringt, gänzlich zu verzichten.
@@ -54,16 +54,16 @@
         h3 Übersichtlich: keine unnötige Verwirrung.
         p Die Teilnehmer finden in dieser App alle relevanten Dokumente und Informationen wie Tagesprogramm, Akteure und können zwischen diesen schnell hin- und herswitchen.
       .column.is-5
-        img(src='../../assets/img/cases/energie-update/Placeholder_03@2x.png')
+        img(src='../../assets/img/cases/energie-update/placeholder_03@2x.png')
   section.section.showcase
     .container.columns
       .column.is-4.is-offset-1
-        img(src='../../assets/img/cases/energie-update/Placeholder_04@2x.png')
+        img(src='../../assets/img/cases/energie-update/placeholder_04@2x.png')
       .column.is-4
         h3 Wegweisend: alle relevanten Adressen aufm Schrim
         p Darüberhinaus findet der Teilnehmer alle wichtigen Standorte der Veranstaltungen inkl. Map und Routenplaner. Die App kann außerdem mit Bild- u. Videomaterial befüllt werden, das während der laufenden Versammlung erstellt wird und den Usern tagesaktuell zur Verfügung steht.
   section.section.fakten-image.no-padding
-    img(src='../../assets/img/cases/energie-update/Mock_up_bottom@2x.png').bottom-img
+    img(src='../../assets/img/cases/energie-update/mock_up_bottom@2x.png').bottom-img
     img(src='../../assets/img/cases/energie-update/image_bottom_bg.jpg').bottom-img-bg
   section.section.fakten
     .columns
@@ -99,28 +99,12 @@
 
 <script>
 export default {
-  name: 'energie-update'
+  name: 'energie-update',
+  beforeCreate: function() {
+      document.body.className = 'energie-update';
+  }
 }
 </script>
-
-
-<style lang="sass">
-@import "~bulma/sass/utilities/_all"
-@import "~bulma/sass/base/helpers"
-#masthead
-  background: #B9D670
-  padding-bottom: 3em
-  #menu-button
-    border-color: #fff !important
-  +desktop
-    padding-bottom: 6em
-  #menu
-    border-color: #fff
-  .burger .line
-    background: #fff!important
-#logo
-  display: none
-</style>
 
 <style lang="sass" scoped>
 @import "~bulma/sass/utilities/_all"

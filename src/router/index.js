@@ -31,10 +31,9 @@ export default new Router({
     { path: '/cases/spreequell', component: Spreequell },
     { path: '/cases/asd', component: Asd },
     { path: '/cases/rueckblende', component: Rueckblende },
-    { path: '/cases/energie-update', component: EnergieUpdate },
     { path: '/cases/hartmannbund', component: Hartmannbund },
-
-    // // { path: '/cases/:slug', component: CaseSingle },
+    { path: '/cases/energie-update', component: EnergieUpdate },
+    // { path: '/cases/:slug', component: CaseSingle },
     { path: '/cases/metagate', component: Metagate },
     { path: '/menu', component: FullPageMenu }
   ]

@@ -99,7 +99,10 @@
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  beforeCreate: function() {
+      document.body.className = 'cases';
+  }
 }
 </script>
 

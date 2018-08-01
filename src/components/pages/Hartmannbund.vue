@@ -96,28 +96,12 @@
 
 <script>
 export default {
-  name: 'Hartmannbund'
+  name: 'Hartmannbund',
+  beforeCreate: function() {
+      document.body.className = 'hartmannbund';
+  }
 }
 </script>
-
-
-<style lang="sass">
-@import "~bulma/sass/utilities/_all"
-@import "~bulma/sass/base/helpers"
-#masthead
-  background: #bbdef7
-  padding-bottom: 3em
-  #menu-button
-    border-color: #fff !important
-  +desktop
-    padding-bottom: 6em
-  #menu
-    border-color: #fff
-  .burger .line
-    background: #fff!important
-#logo
-  display: none
-</style>
 
 <style lang="sass" scoped>
 @import "~bulma/sass/utilities/_all"
