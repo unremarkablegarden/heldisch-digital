@@ -1,8 +1,11 @@
 <template lang="pug">
 #home.page
-  section.hero.slider
+  section.hero.vid-header
     .hero-body
-      img(src='../../assets/img/hero_01.jpg')
+    video(autoplay loop muted)
+      source(src="../../assets/vid/video_header.webm", type="video/webm")
+      source(src="../../assets/vid/video_header.mp4", type="video/mp4")
+      //- img(src='../../assets/img/hero_01.jpg')
 
   section.section.intro.is-centered
     .container
@@ -175,7 +178,7 @@ export default {
     box-shadow: inset 0 -12px 0 #FED4D5
     font-size: 1.2em
     font-style: italic
-  .slider
+  .vid-header
     background: linear-gradient(135deg, #facbd3 0%,#feebe0 100%)
     .hero-body
       padding: 0
