@@ -56,25 +56,25 @@
             br
             | digitalen Strategie.
         .column.is-3
-          video(autoplay loop).graphic
+          video(autoplay loop muted).graphic
             source(src="../../assets/ani_icons/pen_icon.webm", type="video/webm")
             source(src="../../assets/ani_icons/pen_icon.mp4", type="video/mp4")
           h4.title Konzeption &amp; Beratung
           p Digitalisierung bedeutet Veränderung, jedoch für jeden auf unterschiedliche Art und Weise. Workshops mit Strategieentwicklung, Analysen und Prototypen helfen die digitale Idealform Ihrer Organisation zu konzipieren. Wir beraten, planen und unterstützen bei der Einführung des digitalen Projektes.
         .column.is-3
-          video(autoplay loop).graphic
+          video(autoplay loop muted).graphic
             source(src="../../assets/ani_icons/design_icon.webm", type="video/webm")
             source(src="../../assets/ani_icons/design_icon.mp4", type="video/mp4")
           h4.title Design &amp; User Experience
           p Die digitale Welt eines Kunden steht im Einklang mit seinem Image und seiner Zielgruppe. Wir gestalten Websites und Apps und entwerfen digitale und visuelle Identitäten auf Basis gemeinsam erarbeiteter Konzepte.
         .column.is-3
-          video(autoplay loop).graphic.screens
+          video(autoplay loop muted).graphic.screens
             source(src="../../assets/ani_icons/screens_icon.webm", type="video/webm")
             source(src="../../assets/ani_icons/screens_icon.mp4", type="video/mp4")
           h4.title Programmierung &amp; CMS
           p Eine Website ist heutzutage geräteunabhängig und berücksichtigt Aspekte der Suchmaschinenoptimierung. Wir programmieren Websites, Web- Applikationen und andere digitale Objekte immer unter Beachtung der speziellen Kundenbedürfnisse. Dies gilt auch für die Wahl des passenden Content Management System.
         .column.is-3
-          video(autoplay loop).graphic
+          video(autoplay loop muted).graphic
             source(src="../../assets/ani_icons/content_icon.webm", type="video/webm")
             source(src="../../assets/ani_icons/content_icon.mp4", type="video/mp4")
           h4.title Content &amp; Community

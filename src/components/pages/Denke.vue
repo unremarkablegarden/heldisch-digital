@@ -22,7 +22,7 @@
     .container
       .columns.is-multiline
         .column.is-10.is-offset-1.is-hidden-mobile
-          video(autoplay loop)
+          video(autoplay loop muted)
             source(src="../../assets/ani_icons/animated_chart.webm", type="video/webm")
             source(src="../../assets/ani_icons/animated_chart.mp4", type="video/mp4")
         .column.is-4
