@@ -11,19 +11,20 @@
         .column.is-10.hero-image
           img(src='../../assets/img/cases/spreequell/heldisch-digital-berlin-websitegestatung-spreequell.png').is-pulled-right.hero-img
         .mobile-title.is-hidden-desktop
-          img.back-btn(src='../../assets/svg/back_btn.svg')
+          a(href="/cases#spreequell")
+            img.back-btn(src='../../assets/svg/back_btn.svg')
           h1.case-title Spreequell
-          .subtitle Stark für Ärtze
+          .subtitle Volle Pulle Leben
   section.section.aufgabe
     .container
       .columns
         .column.is-6.is-offset-3
           h3 Aufgabe
-          .subtitle Entwicklung, Gestaltung und Programmierung einer Website passend zur parallel laufenden Print- Kampagne mit der Möglichkeit, sich als User sein eigenes Flaschen-Label zu generieren und im Rahmen eines Gewinnspiels einzusenden.
+          .subtitle Entwicklung, Gestaltung und Programmierung einer Website passend zur parallel laufenden Print-Kampagne mit der Möglichkeit, sich als User sein eigenes Flaschen-Label zu generieren und im Rahmen eines Gewinnspiels einzusenden
       .columns
         .column.is-3.is-offset-3
-          h4 Umzetzung
-          p Gestaltung und Programmierung einer responsiven Website mit einem mehrstufigen Flaschen- Label-Generator
+          h4 Umsetzung
+          p Gestaltung und Programmierung einer responsiven Website mit einem mehrstufigen Flaschen-Label-Generator
         .column.is-3.is-offset-1
           h4 Features
           ul
@@ -32,13 +33,13 @@
             li Integriertes Tracking
             li Google Firebase
             li Lazy load
-            li Labelgenerator
+            li Label-Generator
 
   section.section.intro2
     .container.columns
       .column.is-4.is-offset-2
         h2 Volle Pulle Technik
-        p Die jährliche Spreequell- Kampagne „Volle Pulle Leben“ wird stets digital begleitet. Auf der Kampagnen-Website können Besucher ihr eigenes Flaschen-Label kreieren und für einen guten Zweck einreichen.
+        p Die jährliche Spreequell-Kampagne „Volle Pulle Leben“ wird stets digital begleitet. Auf der Kampagnen-Website können Besucher ihr eigenes Flaschen-Label kreieren und für einen guten Zweck einreichen.
       .column.is-4.is-offset-1
         img(src='../../assets/img/cases/spreequell/heldisch-digital-berlin-website-cms-spreequell-1.png' alt='Heldisch Website Spreequell')
   section.section.showcase
@@ -46,13 +47,13 @@
       .column.is-5.is-offset-1
         img(src='../../assets/img/cases/spreequell/heldisch-digital-berlin-websitegestatung-spreequell-2.png' alt='Heldisch Website Content Management System Spreequell')
       .column.is-4
-        h3 Gestaltung eines eigenen Flaschen- Labels:
-        p Auswahl des gewünschten Geschmacks (Farbe), der Mundform sowie Eingabe eines Spruches. Automatische Anpassung der Schriftgröße je nach Textlänge. Die besten Sprüche wurden in Supermärkten
+        h3 Gestaltung eines eigenen Flaschen-Labels
+        p Auswahl des gewünschten Geschmacks (Farbe), der Mundform sowie Eingabe eines Spruches. Automatische Anpassung der Schriftgröße je nach Textlänge. Die kreativsten Sprüche landeten in den Regalen der Supermärkten.
   section.section.showcase
     .columns
       .column.is-4.is-offset-2
-        h3 Handling der Einsendungen:
-        p Übersichtliche Darstellung der eingesendeten Daten mit der Möglichkeit diese zu korrigieren und freizuschalten. Der Teilnehmer bekommt automatisch eine Benachrichtigung via E-Mail, sobald seine Einsendung freigeschaltet wird.
+        h3 Handling der Einsendungen
+        p Übersichtliche Darstellung der eingesendeten Daten mit der Möglichkeit, diese zu korrigieren und freizuschalten. Der Teilnehmer bekommt automatisch eine Benachrichtigung via E-Mail, sobald seine Einsendung freigeschaltet wird.
       .column.is-5
         img(src='../../assets/img/cases/spreequell/heldisch-digital-berlin-website-cms-spreequell-3.png' alt='Heldisch Website Spreequell')
   section.section.showcase
@@ -60,8 +61,8 @@
       .column.is-5
         img(src='../../assets/img/cases/spreequell/heldisch-digital-berlin-websiteprogrammierung-spreequell-4.png' alt='Heldisch Website Spreequell')
       .column.is-4
-        h3 Trinken für den guten Zweck:
-        p Mit jeder freigeschalteten Einsendung wird 1 € an ausgewählte Jugendprojekte gespendet. Der Counter auf der Startseite zeigt die tagesaktuelle Spendensumme an..
+        h3 Trinken für den guten Zweck
+        p Mit jeder freigeschalteten Einsendung wird 1 € an ausgewählte Jugendprojekte gespendet. Der Counter auf der Startseite zeigt die tagesaktuelle Spendensumme an.
 
   section.section.fakten-image.no-padding
     img(src='../../assets/img/cases/spreequell/mock_up_bottom@2x.png').bottom-img
@@ -80,26 +81,25 @@
       .column.is-4
         h3 4.000
         .subtitle Euro
-        p Über 4.000,00 € Euro wurden über den Labelgenerator eingenommen und an zwei Berliner Jugendprojekte gespendet.
-  section.section.last
-    .columns
-      .column.is-8.is-offset-1
-        p
-        | Du möchtest mit uns arbeiten?
-        br
-        strong Erzähle uns von deinem Projekt!
-      .column.is-3
-        strong Heldisch Digital
-        p
-          | Gneisnaustraße 44/45
-          br
-          | 10961 Berlin
-          br
-          | 030 666 666 666
+        p Über 4.000,00 € Euro wurden über den Label-Generator eingenommen und an zwei Berliner Jugendprojekte gespendet.
 </template>
 
 <script>
 export default {
+  metaInfo: {
+    title: 'Kampagnen-Website Spreequell Volle Pulle Leben',
+    titleTemplate: '%s — HELDISCH Digital Berlin',
+    meta: [
+      {
+        name: 'description',
+        content: 'Agentur für Web Design, Programmierung und Content Management Systeme in Berlin. Wir setzen Ihr digitales Projekt um ✓ Tel.: 030/6165738-0. Fragen Sie uns!'
+      },
+      {
+        name: 'keywords',
+        content: 'Kampagnen-Website, responsive, CMS graphcool, User-Tracking, Label-Generator, E-Mail-Marketing'
+      }
+    ]
+  },
   name: 'Spreequell',
   beforeCreate: function() {
       document.body.className = 'spreequell';
@@ -110,11 +110,16 @@ export default {
 <style lang="sass" scoped>
 @import "~bulma/sass/utilities/_all"
 @import "~bulma/sass/base/helpers"
-@import "../../assets/sass/variables.sass"
-
+$red: #ff615d
+$light-green: #d0e4e0
+$light-blue: #bbdef7
+$blue: #2C90E9
 
 .hero
   background: $light-blue
+  height: calc(100vh - 155px)
+  +mobile
+    height: calc(100vh - 125px)
   .container
     display: flex
     align-items: center
@@ -146,7 +151,7 @@ export default {
   .desktop-title
     align-self: center
 .aufgabe
-  // padding: 6em 0
+  padding: 8rem 1.5rem
   background: #f9f9f9
   h3
     font-family: 'Cardo'
@@ -207,6 +212,8 @@ export default {
     width: 50vw
     +mobile
       width: 75vw
+.bottom-img-bg
+  width: 100%
 .fakten
   background: #333
   color: #fff

@@ -3,12 +3,12 @@
   section.hero
     .hero-body.no-padding
       .columns
-        .column.is-4.is-offset-1.desktop-title.is-hidden-mobile
+        .column.is-5.is-offset-1.desktop-title.is-hidden-mobile
           a(href="/cases#hartmannbund")
             img.back-btn(src='../../assets/svg/back_btn.svg')
           h1.case-title Hartmannbund
-          .subtitle Verband der Ärzte Deutschlands e.V.
-        .column.is-10.hero-image
+          .subtitle Verband der Ärzte Deutschlands e. V.
+        .column.is-9.hero-image
           img(src='../../assets/img/cases/hartmannbund/heldisch-digital-berlin-Hartmannbund-website-Event-App.png' alt="heldisch-digital-Hartmannbund-website-Event-App").is-pulled-right.hero-img
         .mobile-title.is-hidden-desktop
           img.back-btn(src='../../assets/svg/back_btn.svg')
@@ -19,10 +19,10 @@
       .columns
         .column.is-6.is-offset-3
           h3 Aufgabe
-          .subtitle Entwicklung, Gestaltung und Programmierung einer Event-App, die die Teilnehmer der Hartmannbund-Events durch die jeweilige Veranstaltung führt, die notwendigen Lehrunterlagen und Informationen liefert.
+          .subtitle Entwicklung, Gestaltung und Programmierung einer Event-App, die die Teilnehmer der Hartmannbund-Events durch die jeweilige Veranstaltung führt und die notwendigen Lehrunterlagen und Informationen liefert.
       .columns
         .column.is-3.is-offset-3
-          h4 Umzetzung
+          h4 Umsetzung
           p Gestaltung und Programmierung einer responsiven Multi-Microsite
         .column.is-2.is-offset-1
           h4 Features
@@ -31,25 +31,25 @@
             li Responsive
             li Multiple
             li ...
-  section.section.intro2
+  section.section.showcase
     .container.columns
       .column.is-4.is-offset-2
-        h2 Erweiterbares Grundmenü:
+        h3 Erweiterbares Grundmenü
         p Events können leicht erstellt, archiviert und/oder gelöscht werden.
-      .column.is-4.is-offset-1
+      .column.is-5.is-offset-1
         img(src='../../assets/img/cases/hartmannbund/heldisch-digital-berlin-Hartmannbund-website-Event-App-1.png' alt="Heldisch digital Berlin Hartmannbund Website Event App 1")
   section.section.showcase
     .columns
       .column.is-5.is-offset-1
         img(src='../../assets/img/cases/hartmannbund/heldisch-digital-berlin-Hartmannbund-website-Event-App-2.png' alt="Heldisch digital Berlin Hartmannbund Website Event App 2")
       .column.is-4
-        h3 Erstellung der Events:
-        p Jedes Event erhält automatisch seine eigenen URL und kann in seinem eigenen Content Management System bearbeitet werden.
+        h3 Erstellung der Events
+        p Jedes Event erhält automatisch seine eigene URL und kann in einem eigenen Content Management System bearbeitet werden.
   section.section.showcase
     .columns
       .column.is-4.is-offset-2
-        h3 Übersichtlich: keine unnötige Verwirrung.
-        p Die Teilnehmer finden in dieser App alle relevanten Dokumente und Informationen wie Tagesprogramm, Akteure und können zwischen diesen schnell hin- und herswitchen.
+        h3 Keine unnötige Verwirrung
+        p Die Teilnehmer finden in dieser übersichtlichen App alle relevanten Dokumente und Informationen wie Tagesprogramm, Akteure und können zwischen diesen schnell hin- und herswitchen.
       .column.is-5
         img(src='../../assets/img/cases/hartmannbund/heldisch-digital-berlin-Hartmannbund-website-Event-App-3.png' alt="Heldisch digital Berlin Hartmannbund Website Event App 3")
   section.section.showcase
@@ -57,8 +57,8 @@
       .column.is-4.is-offset-1
         img(src='../../assets/img/cases/hartmannbund/heldisch-digital-berlin-Hartmannbund-website-Event-App-4.png' alt="Heldisch digital Berlin Hartmannbund Website Event App 4")
       .column.is-4.is-offset-1
-        h3 Alle Informationen auf einem Blick:
-        p Die App liefert das Programm, Informationen zu den einzelnen Workshops und Rednern, Adressen sowie Zugang zu den Lehr-Unterlagen, die nicht mehr ausgedruckt werden müssen. Nach dem Event können sich die Besucher der Veranstaltung im dafür vorgesehenen Media-Bereich Fotos und Filme anschauen, die während der Veranstaltung entstanden sind.
+        h3 Alle Informationen auf einen Blick
+        p Programm, Informationen zu den Workshops und Rednern sowie Adressen – all das liefert die App den Teilnehmern. Ebenso die Lehrunterlagen, die nicht mehr ausgedruckt werden müssen. Im Nachgang sind auch Fotos und Filme des Events via App zu sehen.
   section.section.fakten-image.no-padding
     img(src='../../assets/img/cases/hartmannbund/hand_bottom.png').bottom-img
     img(src='../../assets/img/cases/hartmannbund/image_bottom_bg.jpg').bottom-img-bg
@@ -72,30 +72,29 @@
       .column.is-4
         h3 20.000
         .subtitle Teilnehmer
-        p Im Laufe der Zeit wurden mehr als 20 Events mit der App generiert. Bei durchschnittlich 100 Besuchern pro Event und zahlreichen Informationen,
+        p Im Laufe der Zeit wurden mehr als 20 Events mit der App generiert. Bei durchschnittlich 100 Besuchern pro Event und zahlreichen Informationen, ...
       .column.is-4
         h3 300.000
         .subtitle Ausdrucke
-        p die u.a. als PDF in der App bereitgestellt werden, konnten bereits über 300.000 Seiten Papier <i>eingespart</i> werden.
-  section.section.last
-    .columns
-      .column.is-8.is-offset-1
-        p
-        | Du möchtest mit uns arbeiten?
-        br
-        strong Erzähle uns von deinem Projekt!
-      .column.is-3
-        strong Heldisch Digital
-        p
-          | Gneisnaustraße 44/45
-          br
-          | 10961 Berlin
-          br
-          | 030 666 666 666
+        p ... die u. a. als PDF in der App bereitgestellt werden, konnten bereits über 300.000 Seiten Papier <i>eingespart</i> werden.
 </template>
 
 <script>
 export default {
+  metaInfo: {
+    title: 'Website Hartmannbund–Web-Agentur',
+    titleTemplate: '%s — HELDISCH Digital',
+    meta: [
+      {
+        name: 'description',
+        content: 'Umsetzung einer Event-App für den Hartmannbund inkl. Content Management System. Sie planen ein ähnliches Projekt? Rufen Sie uns an! Tel.: 030/6165738-0'
+      },
+      {
+        name: 'keywords',
+        content: 'Responsive App, CMS keystone, UX-Design'
+      }
+    ]
+  },
   name: 'Hartmannbund',
   beforeCreate: function() {
       document.body.className = 'hartmannbund';
@@ -106,10 +105,15 @@ export default {
 <style lang="sass" scoped>
 @import "~bulma/sass/utilities/_all"
 @import "~bulma/sass/base/helpers"
-@import "../../assets/sass/variables.sass"
+$red: #ff615d
+$light-green: #d0e4e0
+$light-blue: #bbdef7
 
 .hero
   background: $light-blue
+  height: calc(100vh - 155px)
+  +mobile
+    height: calc(100vh - 125px)
   .container
     display: flex
     align-items: center
@@ -141,7 +145,7 @@ export default {
   .desktop-title
     align-self: center
 .aufgabe
-  // padding: 6em 0
+  padding: 8rem 1.5rem
   background: #f9f9f9
   h3
     font-family: 'Cardo'
@@ -202,6 +206,8 @@ export default {
     width: 50vw
     +mobile
       width: 75vw
+.bottom-img-bg
+  width: 100%
 .fakten
   background: #333
   color: #fff

@@ -90,7 +90,7 @@
       .column.is-3
         strong Heldisch Digital
         p
-          | Gneisnaustraße 44/45
+          | Gneisenaustraße 44/45
           br
           | 10961 Berlin
           br
@@ -109,7 +109,13 @@ export default {
 <style lang="sass" scoped>
 @import "~bulma/sass/utilities/_all"
 @import "~bulma/sass/base/helpers"
-@import "../../assets/sass/variables.sass"
+$red: #ff615d
+$light-green: #d0e4e0
+$light-blue: #bbdef7
+$dark-blue: #1A4667
+$blue: #2C90E9
+$light-grey: #DEDEDE
+$grassy-green: #B9D670
 
 .hero
   background: $grassy-green

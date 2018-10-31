@@ -3,12 +3,12 @@
   section.hero
     .hero-body.no-padding
       .columns
-        .column.is-4.is-offset-1.desktop-title.is-hidden-mobile
+        .column.is-5.is-offset-1.desktop-title.is-hidden-mobile
           a(href="/cases#rueckblende")
             img.back-btn(src='../../assets/svg/back_btn.svg')
           h1.case-title LV Rheinland-Pfalz
           .subtitle Vertretung des Landes Rheinland-Pfalz beim Bund und bei der Europäischen Union
-        .column.is-10.hero-image
+        .column.is-9.hero-image
           img(src='../../assets/img/cases/rueckblende/heldisch-digital-berlin-LV-Rheinland-Pfalz-website.png' alt="(heldisch-digital-berlin-LV-Rheinland-Pfalz-website").is-pulled-right.hero-img
         .mobile-title.is-hidden-desktop
           img.back-btn(src='../../assets/svg/back_btn.svg')
@@ -19,11 +19,11 @@
       .columns
         .column.is-6.is-offset-3
           h3 Aufgabe
-          .subtitle Entwicklung, Gestaltung und Programmierung einer Web-Plattform zum Bewerben des jährlich stattfindenden Fotografie- und Karikatur-Wettbewerbs „Rückblende“ sowie Umsetzung eines User-Interfaces zum selbständigen Upload von Dateien durch die Künstler.
+          .subtitle Entwicklung, Gestaltung und Programmierung einer Web-Plattform zum Bewerben des jährlich stattfindenden Fotografie- und Karikatur-Wettbewerbs „Rückblende“ sowie Umsetzung eines User-Interfaces zum selbständigen Upload von Dateien durch die Künstler
       .columns
         .column.is-3.is-offset-3
           h4 Umsetzung
-          p Entwicklung, Gestaltung und Programmierung einer Web-Plattform mit diversen Filter-Möglichkeiten und Schaffung eines User-Accountsystems zum selbständigen Datei-Upload
+          p Entwicklung, Gestaltung und Programmierung einer Web-Plattform mit diversen Filtermöglichkeiten und Schaffung eines User-Accountsystems zum selbständigen Datei-Upload
         .column.is-2.is-offset-1
           h4 Weg
           ul
@@ -37,7 +37,7 @@
     .container.columns
       .column.is-4.is-offset-2
         h2 Art comes first
-        p Der jährlich stattfindende Fotografie- und Karikatur- Wettbewerb „Rückblende“ bietet deutschen Künstlern seit 2006 eine Plattform für politische Kunst.
+        p Der jährlich stattfindende Fotografie- und Karikatur-Wettbewerb „Rückblende“ bietet deutschen Künstlern seit 2006 eine Plattform für politische Kunst.
       .column.is-4.is-offset-1
         img(src='../../assets/img/cases/rueckblende/heldisch-digital-berlin-LV-Rheinland-Pfalz-website-1.png' alt="Heldisch digital Berlin LV Rheinland-Pfalz Website 1")
   section.section.showcase
@@ -60,8 +60,8 @@
       .column.is-4.is-offset-1
         img(src='../../assets/img/cases/rueckblende/heldisch-digital-berlin-LV-Rheinland-Pfalz-website-4.png' alt="Heldisch digital Berlin LV Rheinland-Pfalz Website 4")
       .column.is-4
-        h3 Für jeden Künstler: ein eigenes Atelier
-        p Fotografen und Karikaturisten legen eigenständig Nutzer- Accounts an, um ihre Werke hochzuladen, zu benennen und einzureichen.
+        h3 Für jeden Künstler ein eigenes Atelier
+        p Fotografen und Karikaturisten legen eigenständig Nutzer-Accounts an, um ihre Werke hochzuladen, zu benennen und einzureichen.
   section.section.fakten-image.no-padding
     img(src='../../assets/img/cases/rueckblende/heldisch-digital-berlin-LV-Rheinland-Pfalz-website-5.png' alt="Heldisch digital Berlin LV Rheinland-Pfalz Website 5").bottom-img
     img(src='../../assets/img/cases/rueckblende/image_bottom_bg.jpg').bottom-img-bg
@@ -73,32 +73,31 @@
           br
           | TEN
       .column.is-4
-        h3 90.000
-        .subtitle Ausdrucke
-        p Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula.
+        h3 15.500
+        .subtitle Fotografien
+        p Die Herausforderung dieses Projektes war in erster Linie die automatisierte Übertragung von mehr als 25.000 Datensätzen und ihren einzelnen
       .column.is-4
-        h3 8.000
-        .subtitle Teilnehmer
-        p Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper.
-  section.section.last
-    .columns
-      .column.is-8.is-offset-1
-        p
-        | Du möchtest mit uns arbeiten?
-        br
-        strong Erzähle uns von deinem Projekt!
-      .column.is-3
-        strong Heldisch Digital
-        p
-          | Gneisnaustraße 44/45
-          br
-          | 10961 Berlin
-          br
-          | 030 666 666 666
+        h3 10.000
+        .subtitle Karikaturen
+        p Ausprägungen auf einen hierfür speziell eingerichteten Server und deren Darstellung auf der neu entwickelten Web-Plattform.
 </template>
 
 <script>
 export default {
+  metaInfo: {
+    title: 'Website Rückblende LV Rheinland-Pfalz',
+    titleTemplate: '%s — HELDISCH Digital Berlin',
+    meta: [
+      {
+        name: 'description',
+        content: 'Umsetzung Web-Plattform Foto-Event Rückblende der LV Rheinland-Pfalz inkl. CMS. Sie planen ein ähnliches Online-Projekt? Rufen Sie an! Tel.: 030/6165738-0'
+      },
+      {
+        name: 'keywords',
+        content: 'Foto-Web-Plattform, responsive, CMS WordPress, User-Accounts, Upload-Bereich, Programmierung'
+      }
+    ]
+  },
   name: 'rueckblende',
   beforeCreate: function() {
     document.body.className = 'rueckblende';
@@ -110,10 +109,20 @@ export default {
 <style lang="sass" scoped>
 @import "~bulma/sass/utilities/_all"
 @import "~bulma/sass/base/helpers"
-@import "../../assets/sass/variables.sass"
+$red: #ff615d
+$light-green: #d0e4e0
+$light-blue: #bbdef7
+$dark-blue: #1A4667
+$blue: #2C90E9
+$light-grey: #DEDEDE
+$puke-green: #E5DF92
+$dark-red: #871D33
 
 .hero
   background: $puke-green
+  height: calc(100vh - 155px)
+  +mobile
+    height: calc(100vh - 125px)
   .container
     display: flex
     align-items: center
@@ -145,7 +154,7 @@ export default {
   .desktop-title
     align-self: center
 .aufgabe
-  // padding: 6em 0
+  padding: 8rem 1.5rem
   background: #f9f9f9
   h3
     font-family: 'Cardo'
@@ -206,6 +215,8 @@ export default {
     width: 70vw
     +mobile
       width: 75vw
+.bottom-img-bg
+  width: 100%
 .fakten
   background: #333
   color: #fff

@@ -3,33 +3,33 @@
   section.hero
     .hero-body.no-padding
       .columns
-        .column.is-4.is-offset-1.desktop-title.is-hidden-mobile
+        .column.is-5.is-offset-1.desktop-title.is-hidden-mobile
           a(href="/cases#asd")
             img.back-btn(src='../../assets/svg/back_btn.svg')
-          h1.case-title Arnecke Siebeth Dabelstein
+          h1.case-title Arnecke Sibeth Dabelstein
           .subtitle Die Wirtschaftskanzlei
-        .column.is-10.hero-image
+        .column.is-8.hero-image
           img(src='../../assets/img/cases/asd/heldisch-digital-berlin-arnecke-sibeth-dabelstein-website.png' alt="Heldisch digital Berlin Arnecke Sibeth Dabelstein Website").is-pulled-right.hero-img
         .mobile-title.is-hidden-desktop
           img.back-btn(src='../../assets/svg/back_btn.svg')
-          h1.case-title Arnecke Siebeth Dabelstein
+          h1.case-title Arnecke Sibeth Dabelstein
           .subtitle Die Wirtschaftskanzlei
   section.section.aufgabe
     .container
       .columns
         .column.is-6.is-offset-3
           h3 Aufgabe
-          .subtitle Entwicklung, Gestaltung und Programmierung einer suchmaschinenoptimierten Website im Zuge der Kanzlei-Fusion von Arnecke Sibeth und Dabelstein & Passehl unter Beachtung der verschiedenen ursprünglichen Corporate Designs
+          .subtitle Entwicklung, Gestaltung und Programmierung einer suchmaschinenoptimierten Website im Zuge der Kanzlei-Fusion zu Arnecke Sibeth Dabelstein unter Beachtung der verschiedenen ursprünglichen Corporate Designs
       .columns
         .column.is-3.is-offset-3
-          h4 Umzetzung
+          h4 Umsetzung
           p Gestaltung und Programmierung einer zweisprachigen responsiven Website
         .column.is-4
           h4 Features
           ul
             li CMS Wordpress
             li Diverse integrierte SEO-Tools
-            li Automatisierter sowie manueller language switcher
+            li Automatisierter sowie manueller Language-Switcher
             li Schnittstelle zu den Social Media Kanälen
             li Lazy load
             li Random-Funktionen
@@ -38,8 +38,8 @@
   section.section.intro2
     .container.columns
       .column.is-4.is-offset-2
-        h2 Treffen sich drei Anwälte in der Bar ...
-        p Wenn drei international tätige Anwaltskanzleien beschließen zu fusionieren und unter einer gemeinsamen Dachmarke zu aggieren, dann passiert sowas ...
+        h2 Treffen sich drei Anwälte in der Bar ...
+        p Wenn drei international tätige Anwaltskanzleien beschließen zu fusionieren und unter einer gemeinsamen Dachmarke zu agieren, dann passiert sowas ...
       .column.is-4.is-offset-1
         img(src='../../assets/img/cases/asd/heldisch-digital-berlin-arnecke-sibeth-dabelstein-website-1.png' alt="Heldisch digital Berlin Arnecke Sibeth Dabelstein Website 1")
   section.section.showcase
@@ -48,7 +48,7 @@
         img(src='../../assets/img/cases/asd/heldisch-digital-berlin-arnecke-sibeth-dabelstein-website-2.png' alt="Heldisch digital Berlin Arnecke Sibeth Dabelstein Website 2")
       .column.is-4
         h3 Intuitive Navigation, klarer Look
-        p Strukturierte Darstellung einer Vielzahl von Informationen, Anwälte, Kompetenzen, Publikationen, News, ...
+        p Strukturierte Darstellung einer Vielzahl von Informationen, Anwälten, Kompetenzen, Publikationen, News ...
   section.section.showcase
     .columns
       .column.is-4.is-offset-2
@@ -59,7 +59,7 @@
 
   section.section.fakten-image.no-padding
     img(src='../../assets/img/cases/asd/heldisch-digital-berlin-arnecke-sibeth-dabelstein-website-4.png' alt="Heldisch digital Berlin Arnecke Sibeth Dabelstein Website 4").bottom-img
-    img(src='../../assets/img/cases/asd/heldisch-digital-berlin-arnecke-sibeth-dabelstein-website-5.jpg' alt="Heldisch digital Berlin Arnecke Sibeth Dabelstein Website 5").bottom-img-bg
+    img(src='../../assets/img/cases/asd/image_bottom_bg.jpg' alt="Heldisch digital Berlin Arnecke Sibeth Dabelstein Website 5").bottom-img-bg
   section.section.fakten
     .columns
       .column.is-3.is-offset-1
@@ -68,32 +68,31 @@
           br
           | TEN
       .column.is-4
-        h3 90.000
-        .subtitle Ausdrucke
-        p Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula.
+        h3 300
+        .subtitle Anwaltseiten
+        p Die Herausforderung dieses Projektes war angesichts von über 300 Anwaltsprofilen, 6 Standorten und einer Vielzahl von Kompetenzen eine
       .column.is-4
-        h3 8.000
-        .subtitle Teilnehmer
-        p Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper.
-  section.section.last
-    .columns
-      .column.is-8.is-offset-1
-        p
-        | Du möchtest mit uns arbeiten?
-        br
-        strong Erzähle uns von deinem Projekt!
-      .column.is-3
-        strong Heldisch Digital
-        p
-          | Gneisnaustraße 44/45
-          br
-          | 10961 Berlin
-          br
-          | 030 666 666 666
+        h3 6
+        .subtitle Standorte
+        p Website zu entwickeln, die benutzerfreundlich ist und den ästhetischen Ansprüchen dieses Segmentes gerecht wird.
 </template>
 
 <script>
 export default {
+  metaInfo: {
+    title: 'Website Arnecke Sibeth Dabelstein',
+    titleTemplate: '%s — HELDISCH Digital Berlin',
+    meta: [
+      {
+        name: 'description',
+        content: 'Umsetzung der Website Arnecke Sibeth Dabelstein. Sie haben Fragen oder planen ein ähnliches Projekt für Ihr Unternehmen? Rufen Sie an! Tel.: 030/6165738-0'
+      },
+      {
+        name: 'keywords',
+        content: 'Responsive Website, CMS WordPress, SEO-Tools, Schnittstelle Social Media Kanäle'
+      }
+    ]
+  },
   name: 'Asd',
   beforeCreate: function() {
       document.body.className = 'asd';
@@ -104,10 +103,18 @@ export default {
 <style lang="sass" scoped>
 @import "~bulma/sass/utilities/_all"
 @import "~bulma/sass/base/helpers"
-@import "../../assets/sass/variables.sass"
+$red: #ff615d
+$light-green: #d0e4e0
+$light-blue: #bbdef7
+$dark-blue: #1A4667
+$blue: #2C90E9
+$light-grey: #DEDEDE
 
 .hero
   background: $light-grey
+  height: calc(100vh - 155px)
+  +mobile
+    height: calc(100vh - 125px)
   .container
     display: flex
     align-items: center
@@ -138,7 +145,7 @@ export default {
   .desktop-title
     align-self: center
 .aufgabe
-  // padding: 6em 0
+  padding: 8rem 1.5rem
   background: #f9f9f9
   h3
     font-family: 'Cardo'
@@ -199,6 +206,8 @@ export default {
     width: 70vw
     +mobile
       width: 75vw
+.bottom-img-bg
+  width: 100%
 .fakten
   background: #333
   color: #fff

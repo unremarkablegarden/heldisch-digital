@@ -1,17 +1,13 @@
 <template lang="pug">
 #masthead
-  #menu-button.is-pulled-right
-    a(v-on:click="isActive = true")
-      .burger
-        .line
-        .line
+  a(@click='toggle()', :class='{ active: isActive }')#menu-button.is-pulled-right
+    .burger
+      .line
+      .line
   #site-menu(v-bind:class='{ active: isActive }')
     .menu-inner
       img(src='../assets/svg/equal_sign_big_pink.svg').equal_sign
       ul.nav
-        li
-          a(v-on:click="isActive = false")
-            img(src='../assets/svg/close_btn.svg').close-btn
         li(v-on:click="isActive = false")
           a(href='/') Wir
         li(v-on:click="isActive = false")
@@ -24,18 +20,20 @@
           a(href='/#team') Team
         li(v-on:click="isActive = false")
           a(href='/#kontakt') Kontakt
-        li.other-links
-          a(target='_blank' href='http://instagram.com/heldisch')
-            img(src='../assets/img/insta_icon.jpg').insta.icon
-          a(target= '_blank' href='http://facebook.com/heldisch')
-            img(src='../assets/img/fb_icon.png').fb.icon
+        //- li.other-links
+        //-   a(target='_blank' href='http://instagram.com/heldisch')
+        //-     img(src='../assets/img/insta_icon.jpg').insta.icon
+        //-   a(target= '_blank' href='http://facebook.com/heldisch')
+        //-     img(src='../assets/img/fb_icon.png').fb.icon
         li.other-links.page-links
           a(href='/impressum') Impressum
           a(href='/datenschutz') Datenschutz
   #logo.pink
-    img(src="../assets/svg/logo.svg", alt="Heldisch Digital")
+    a(href='/')
+      img(src="../assets/svg/logo.svg", alt="Heldisch Digital")
   #logo.orange
-    img(src="../assets/svg/logo-orange.svg", alt="Heldisch Digital")
+    a(href='/')
+      img(src="../assets/svg/logo-orange.svg", alt="Heldisch Digital")
 </template>
 
 <script>
@@ -43,6 +41,11 @@ export default {
   name: 'mast-head',
   data: function() {
     return{ isActive: false }
+  },
+  methods: {
+    toggle: function(){
+      this.isActive = !this.isActive
+    }
   }
 }
 </script>
@@ -52,12 +55,15 @@ export default {
 @import "~bulma/sass/base/helpers"
 
 #masthead
-  padding-top: 3rem
+  padding-top: 2rem
+  padding-bottom: 1rem
   +mobile
     padding-top: 1rem
+    padding-bottom: .5rem
 #menu-button
-  position: absolute
+  position: fixed
   right: 3rem
+  z-index: 909
   +mobile
     right: 1rem
   border: 3px #FED4D5 solid
@@ -69,20 +75,27 @@ export default {
   height: 60px
   border-radius: 60px
   transition: all 400ms
-  &:hover
-    transform: rotateZ(90deg)
+  &:hover, &.active
     .line:first-child
-      transform: rotateZ(25deg)
+      transform: rotate(45deg)
+      top: 24px!important
     .line:last-child
-      transform: rotateZ(-25deg)
+      transform: rotate(-45deg)
+      top: 24px!important
   .burger
     .line
-      transition: all 400ms
+      transition: all 200ms
       width: 2rem
       height: 5px
       background: #FED4D5
       border-radius: 2.5px
-      margin: 0.5rem
+      position: absolute
+      left: 12px
+      &:first-child
+        top: 20px
+      &:last-child
+        top: 30px
+
 #site-menu
   background: #fce5e6
   position: fixed
@@ -92,7 +105,7 @@ export default {
   top: 120vh
   transition: all 400ms
   &.active
-    top: 0
+    transform: translateY(-120vh)
   .menu-inner
     display: flex
     align-items: center
@@ -165,11 +178,13 @@ export default {
     height: 40px
 #logo
   text-align: center
-  margin-bottom: 2rem
+  // margin-bottom: 2rem
+  img
+    width: 120px
   +mobile
     text-align: left
     margin-left: 1rem
-    width: 33.333vw
+    width: 25vw
     margin-bottom: 0
 #logo.orange
   display: none

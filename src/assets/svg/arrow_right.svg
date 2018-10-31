@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="start3" transform="translate(-1316.000000, -1511.000000)">
+            <g id="button" transform="translate(1318.000000, 1513.000000)">
+                <circle id="Oval-2" stroke="#FFFFFF" stroke-width="3" cx="24" cy="24" r="24"></circle>
+                <g id="Group-3" transform="translate(26.000000, 24.500000) scale(-1, 1) translate(-26.000000, -24.500000) translate(17.000000, 12.000000)" fill="#FFFFFF">
+                    <path d="M0.26605813,13.3003094 C-0.280167811,12.1147839 0.0419694907,10.6003177 0.982348802,9.91998649 L14.2385609,0.32958484 C15.1803832,-0.351790399 16.3869389,0.0574558007 16.9329107,1.24242978 L17.224801,1.87594686 C17.7710269,3.06147244 17.4488896,4.57593857 16.5085103,5.25626981 L3.25229825,14.8466715 C2.31047589,15.5280467 1.10392026,15.1188005 0.557948466,13.9338265" id="Rectangle-5-Copy-4"></path>
+                    <path d="M0.558151922,10.5013447 C1.10437786,9.31581916 2.31212239,8.90816855 3.25250171,9.5884998 L16.5087138,19.1789015 C17.4505361,19.8602767 17.7709762,21.3742504 17.2250044,22.5592244 L16.9331141,23.1927415 C16.3868882,24.3782671 15.1791436,24.7859177 14.2387643,24.1055864 L0.982552257,14.5151848 C0.0407299021,13.8338095 -0.279710208,12.3198358 0.266261585,11.1348618" id="Rectangle-5-Copy-5"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
