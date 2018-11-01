@@ -18,7 +18,6 @@ import Datenschutz from '@/components/pages/Datenschutz'
 
 import VueObserveVisibility from 'vue-observe-visibility'
 import Sticky from 'vue-sticky-directive'
-import VueRouter from 'vue-router'
 
 Vue.use(Router)
 Vue.use(Meta)

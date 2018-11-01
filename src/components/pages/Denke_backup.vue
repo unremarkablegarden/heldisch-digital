@@ -70,10 +70,6 @@
 import Glide from '@glidejs/glide'
 
 export default {
-  name: 'app',
-  beforeCreate: function() {
-    document.body.className = 'denke';
-  },
   metaInfo: {
     title: 'Agentur für Internetseiten und digitale Projekte in Berlin',
     titleTemplate: '%s — HELDISCH Digital Berlin',
@@ -87,6 +83,10 @@ export default {
         content: 'Web-Projekte, Web-Konzeption, Web-Betreuung, Web-Optimierung, Web-Agentur'
       }
     ]
+  },
+  name: 'app',
+  beforeCreate: function() {
+    document.body.className = 'denke';
   },
   data () {
     return {
