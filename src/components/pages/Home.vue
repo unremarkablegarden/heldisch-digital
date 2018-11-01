@@ -26,16 +26,16 @@
       .glide__track(data-glide-el='track')
         .glide__slides
           .glide__slide
-            img(src='../../assets/img/cases/spreequell/thumbnail@2x.png')
+            img(src='../../assets/img/cases/spreequell/thumbnail@2x.jpg')
             a(href='cases/spreequell', alt='Kampagnen-Website für Spreequell von HELDISCH Digital') Mehr zeigen
           .glide__slide
             img(src='../../assets/img/cases/hartmannbund/hartmannbund_slider.jpg', alt='Website für den Hartmannbund Vertretung der Ärzte Deutschlands von HELDISCH Digital').figure
             a(href='cases/hartmannbund') Mehr zeigen
           .glide__slide
-            img(src='../../assets/img/cases/asd/thumbnail@2x.png', alt='Responsive Website für die Wirtschaftskanzlei Arnecke Sibeth Dabelstein von HELDISCH Digital').figure
+            img(src='../../assets/img/cases/asd/thumbnail@2x.jpg', alt='Responsive Website für die Wirtschaftskanzlei Arnecke Sibeth Dabelstein von HELDISCH Digital').figure
             a(href='cases/asd') Mehr zeigen
           .glide__slide
-            img(src='../../assets/img/cases/rueckblende/thumbnail@2x.png', alt='Webplattform für Landesvertretung Rheinland-Pfalz von HELDISCH Digital').figure
+            img(src='../../assets/img/cases/rueckblende/thumbnail@2x.jpg', alt='Webplattform für Landesvertretung Rheinland-Pfalz von HELDISCH Digital').figure
             a(href='cases/rueckblende') Mehr zeigen
       .glide__arrows(data-glide-el='controls').is-hidden-mobile
         button.glide__arrow.glide__arrow--left(data-glide-dir='<')
