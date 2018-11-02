@@ -30,10 +30,10 @@
           a(href='/datenschutz') Datenschutz
   #logo.pink
     a(href='/')
-      img(src="../assets/svg/logo.svg", alt="Heldisch Digital")
+      img(src="../assets/svg/HELDISCH_Logo_pink.svg", alt="Heldisch Digital")
   #logo.orange
     a(href='/')
-      img(src="../assets/svg/logo-orange.svg", alt="Heldisch Digital")
+      img(src="../assets/svg/HELDISCH_Logo_yellow.svg", alt="Heldisch Digital")
 </template>
 
 <script>
@@ -180,11 +180,11 @@ export default {
   text-align: center
   // margin-bottom: 2rem
   img
-    width: 120px
+    width: 160px
   +mobile
     text-align: left
     margin-left: 1rem
-    width: 25vw
+    width: 33vw
     margin-bottom: 0
 #logo.orange
   display: none
