@@ -75,8 +75,7 @@ export default {
     document.body.className = 'denke';
   },
   metaInfo: {
-    title: 'Agentur für Internetseiten und digitale Projekte in Berlin',
-    titleTemplate: '%s — HELDISCH Digital Berlin',
+    title: 'Unsere Denke hinsichtlich Webdesign, Programmierung | HELDISCH Digital',
     meta: [
       {
         name: 'description',
@@ -84,7 +83,7 @@ export default {
       },
       {
         name: 'keywords',
-        content: 'Web-Projekte, Web-Konzeption, Web-Betreuung, Web-Optimierung, Web-Agentur'
+        content: 'Web-Projekte, Web-Konzeption, Web-Betreuung, Web-Optimierung, Web-Agentur, Kick-off, Workflow, Aftermath'
       }
     ]
   },
@@ -101,6 +100,8 @@ export default {
     }
   },
   mounted(){
+    $("video").prop("muted",true)
+    
     new Glide('.glide_graph', {
       type: 'slider',
       perView: 1,

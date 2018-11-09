@@ -90,15 +90,15 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Referenzen digitale Projekte der Web-Agentur HELDISCH Digital aus Berlin',
+    title: 'Web-Referenzen der Agentur HELDISCH Digital aus Berlin',
     meta: [
       {
         name: 'description',
-        content: 'Referenzen Web-Projekte der Digitalagentur HELDISCH Digital in Berlin. Wir helfen Ihnen bei der Umsetzung Ihrer Online-Projekte ✓ Kontaktieren Sie uns!'
+        content: 'Web-Projekte und Referenzen der Agentur HELDISCH Digital in Berlin. Wir helfen Ihnen bei der Umsetzung Ihrer Online-Projekte ✓ Kontaktieren Sie uns!'
       },
       {
         name: 'keywords',
-        content: 'Digitalagentur, Online-Agentur, barrierefrei, Usability, Website, App, Web-Plattform'
+        content: 'Web-Projekte, Online, Usability, Website, App, Web-Plattform, Webdesign, Programmierung'
       }
     ]
   },

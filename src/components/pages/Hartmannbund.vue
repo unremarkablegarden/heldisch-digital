@@ -82,16 +82,16 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Website Hartmannbund–Web-Agentur',
-    titleTemplate: '%s — HELDISCH Digital',
+    title: 'Website Hartmannbund e.V. | HELDISCH Digital',
+    //titleTemplate: '%s — HELDISCH Digital',
     meta: [
       {
         name: 'description',
-        content: 'Umsetzung einer Event-App für den Hartmannbund inkl. Content Management System. Sie planen ein ähnliches Projekt? Rufen Sie uns an! Tel.: 030/6165738-0'
+        content: 'Umsetzung der Event-App für den Hartmannbund inkl. Content Management System. Sie planen ein ähnliches Projekt? Rufen Sie uns an! Tel.: 030/6165738-0'
       },
       {
         name: 'keywords',
-        content: 'Responsive App, CMS keystone, UX-Design'
+        content: 'Hartmannbund, responsive App, CMS keystone, UX-Design'
       }
     ]
   },

@@ -270,16 +270,15 @@ import Glide from '@glidejs/glide'
 
 export default {
   metaInfo: {
-    title: 'Agentur für Internetseiten und digitale Projekte in Berlin',
-    titleTemplate: '%s — HELDISCH Digital Berlin',
+    title: 'HELDISCH Digital | Agentur für Websites & mehr aus Berlin',
     meta: [
       {
         name: 'description',
-        content: 'Agentur Websites, digitale Projekte, Apps in Berlin Kreuzberg ✓, Tel.: 030/6165738-0, E-Mail: 404@heldisch-digital.com, jetzt anrufen und informieren!'
+        content: 'Agentur für Websites, digitale Projekte, Apps in Berlin, Tel.: 030/6165738-0, E-Mail: 404@heldisch-digital.com, jetzt anrufen und informieren!'
       },
       {
         name: 'keywords',
-        content: 'Web Agentur Berlin, Web-Design, Programmierung, Content Management Systeme, WordPress, Typo3, HTML 5, native Apps, UX Design, Web-Konzeption, Web-Beratung'
+        content: 'Digitalagentur, Web Design, Websites, userfreundlich, Usability, UX-Design, App'
       }
     ]
   },

@@ -87,12 +87,12 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Kampagnen-Website Spreequell Volle Pulle Leben',
-    titleTemplate: '%s — HELDISCH Digital Berlin',
+    title: 'Kampagnen Website Spreequell | HELDISCH Digital',
+    //titleTemplate: '%s — HELDISCH Digital Berlin',
     meta: [
       {
         name: 'description',
-        content: 'Agentur für Web Design, Programmierung und Content Management Systeme in Berlin. Wir setzen Ihr digitales Projekt um ✓ Tel.: 030/6165738-0. Fragen Sie uns!'
+        content: 'Umsetzung der Spreequell-Kampagnen-Website „Volle Pulle Leben“  mit Label-Generator und CMS. Sie möchten so etwas auch? Rufen Sie an! Tel.: 030/6165738-0'
       },
       {
         name: 'keywords',

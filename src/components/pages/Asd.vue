@@ -80,16 +80,16 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Website Arnecke Sibeth Dabelstein',
-    titleTemplate: '%s — HELDISCH Digital Berlin',
+    title: 'Website Arnecke Sibeth Dabelstein | HELDISCH Digital',
+    // titleTemplate: '%s — HELDISCH Digital Berlin',
     meta: [
       {
         name: 'description',
-        content: 'Umsetzung der Website Arnecke Sibeth Dabelstein. Sie haben Fragen oder planen ein ähnliches Projekt für Ihr Unternehmen? Rufen Sie an! Tel.: 030/6165738-0'
+        content: 'Umsetzung Website Arnecke Sibeth Dabelstein. Sie haben Fragen oder planen ein ähnliches Projekt für Ihr Unternehmen? Rufen Sie an! Tel.: 030/6165738-0'
       },
       {
         name: 'keywords',
-        content: 'Responsive Website, CMS WordPress, SEO-Tools, Schnittstelle Social Media Kanäle'
+        content: 'Arnecke Sibeth Dabelstein, responsive Website, CMS WordPress, SEO-Tools, Schnittstelle Social Media'
       }
     ]
   },

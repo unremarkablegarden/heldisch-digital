@@ -38,12 +38,11 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Agentur für Internetseiten und digitale Projekte in Berlin',
-    titleTemplate: '%s — HELDISCH Digital Berlin',
+    title: 'Agentur für Internetseiten in Berlin | HELDISCH Digital',
     meta: [
       {
         name: 'description',
-        content: 'Agentur Websites, digitale Projekte, Apps in Berlin Kreuzberg ✓, Tel.: 030/6165738-0, E-Mail: 404@heldisch-digital.com, jetzt anrufen und informieren!'
+        content: 'Agentur fü+r Websites, digitale Projekte, Apps in Berlin Kreuzberg ✓, Tel.: 030/6165738-0, E-Mail: 404@heldisch-digital.com, jetzt anrufen und informieren!'
       },
       {
         name: 'keywords',

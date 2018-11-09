@@ -617,12 +617,11 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Der Schutz Ihrer Daten ist uns wichtig',
-    titleTemplate: '%s — HELDISCH Digital Berlin',
+    title: 'Der Schutz Ihrer Daten ist uns wichtig! | HELDISCH Digital',
     meta: [
       {
         name: 'description',
-        content: 'Agentur Websites, digitale Projekte, Apps in Berlin Kreuzberg ✓, Tel.: 030/6165738-0, E-Mail: 404@heldisch-digital.com, jetzt anrufen und informieren!'
+        content: 'Agentur für Websites, digitale Projekte, Apps in Berlin Kreuzberg ✓, Tel.: 030/6165738-0, E-Mail: 404@heldisch-digital.com, jetzt anrufen und informieren!'
       },
       {
         name: 'keywords',

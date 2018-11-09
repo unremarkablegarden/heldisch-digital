@@ -85,8 +85,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Website Rückblende LV Rheinland-Pfalz',
-    titleTemplate: '%s — HELDISCH Digital Berlin',
+    title: 'Webplattform LV Rheinland-Pfalz | HELDISCH Digital',
     meta: [
       {
         name: 'description',
@@ -94,7 +93,7 @@ export default {
       },
       {
         name: 'keywords',
-        content: 'Foto-Web-Plattform, responsive, CMS WordPress, User-Accounts, Upload-Bereich, Programmierung'
+        content: 'Event Webplattform, responsive, CMS WordPress, User-Accounts, Upload-Bereich, Programmierung'
       }
     ]
   },
