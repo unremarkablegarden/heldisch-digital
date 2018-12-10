@@ -7,9 +7,6 @@ const baseWebpackConfig = require('./webpack.base.conf')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 
-const path = require('path')
-const PrerenderSPAPlugin = require('prerender-spa-plugin')
-
 // add hot-reload related code to entry chunks
 Object.keys(baseWebpackConfig.entry).forEach(function (name) {
   baseWebpackConfig.entry[name] = ['./build/dev-client'].concat(baseWebpackConfig.entry[name])
@@ -38,12 +35,6 @@ module.exports = merge(baseWebpackConfig, {
     new webpack.ProvidePlugin({
       $ : "jquery",
       jQuery : "jquery"
-    }),
-    new PrerenderSPAPlugin({
-     // Required - The path to the webpack-outputted app to prerender.
-     staticDir: path.join(__dirname, '../dist'),
-     // Required - Routes to render.
-     routes: [ '/', '/cases', '/denke' ],
-   })
+    })
   ]
 })

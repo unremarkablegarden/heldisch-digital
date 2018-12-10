@@ -10,9 +10,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 
-const path = require('path')
-const PrerenderSPAPlugin = require('prerender-spa-plugin')
-
 const env = config.build.env
 
 const webpackConfig = merge(baseWebpackConfig, {
@@ -29,13 +26,6 @@ const webpackConfig = merge(baseWebpackConfig, {
     chunkFilename: utils.assetsPath('js/[id].[chunkhash].js')
   },
   plugins: [
-    // https://alligator.io/vuejs/vue-prerender-prerenderer/
-    new PrerenderSPAPlugin({
-      // Required - The path to the webpack-outputted app to prerender.
-      staticDir: path.join(__dirname, '../dist'),
-      // Required - Routes to render.
-      routes: [ '/', '/cases', '/denke' ],
-    }),
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
     new webpack.DefinePlugin({
       'process.env': env
