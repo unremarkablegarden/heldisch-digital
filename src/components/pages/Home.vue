@@ -305,7 +305,7 @@ export default {
   mounted () {
     $("video").prop("autoplay",true)
     $("video").prop("muted",true)
-    
+
     this.$nextTick(function() {
      window.addEventListener('resize', this.getWindowWidth)
      //Init
@@ -386,7 +386,7 @@ export default {
     .glide__arrow
       border: none
       box-shadow: none
-      filter: drop-shadow(0 0 4px #00000060)
+      filter: drop-shadow(0 0 4px #000000)
   .intro
     font-size: 1.3rem
     h2

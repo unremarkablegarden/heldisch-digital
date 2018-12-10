@@ -10,6 +10,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 
+const PrerenderSPAPlugin = require('prerender-spa-plugin')
+const PuppeteerRenderer = PrerenderSPAPlugin.PuppeteerRenderer
+// const JSDOMRenderer = require('@prerenderer/renderer-jsdom')
+
+// const PrerenderSPAPlugin = require('prerender-spa-plugin')
+// const Renderer = PrerenderSPAPlugin.PuppeteerRenderer
+
 const env = config.build.env
 
 const webpackConfig = merge(baseWebpackConfig, {
@@ -26,6 +33,31 @@ const webpackConfig = merge(baseWebpackConfig, {
     chunkFilename: utils.assetsPath('js/[id].[chunkhash].js')
   },
   plugins: [
+
+    // new PrerenderSPAPlugin({
+    //   staticDir: path.join(__dirname, 'dist'),
+    //   routes: [
+    //     '/',
+    //     '/denke',
+    //     '/cases',
+    //     '/cases/spreequell',
+    //     '/cases/arnecke-sibeth-dabelstein',
+    //     '/cases/rueckblende',
+    //     '/cases/hartmannbund',
+    //     '/cases/energie-update',
+    //     '/impressum',
+    //     '/datenschutz',
+    //     '/cases/metagate'
+    //   ],
+    //   renderer: new Renderer({
+    //     inject: {
+    //       foo: 'bar'
+    //     },
+    //     headless: false,
+    //     renderAfterDocumentEvent: 'render-event'
+    //   })
+    // }),
+
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
     new webpack.DefinePlugin({
       'process.env': env
@@ -98,7 +130,33 @@ const webpackConfig = merge(baseWebpackConfig, {
     new webpack.ProvidePlugin({
       $ : "jquery",
       jQuery : "jquery"
-    })
+    }),
+
+    new PrerenderSPAPlugin({
+      staticDir: __dirname, // The path to the folder where index.html is.
+      routes: [
+        '/',
+        '/denke',
+        '/cases',
+        '/cases/spreequell',
+        '/cases/arnecke-sibeth-dabelstein',
+        '/cases/rueckblende',
+        '/cases/hartmannbund',
+        '/cases/energie-update',
+        '/impressum',
+        '/datenschutz',
+        '/cases/metagate'
+      ], // List of routes to prerender.
+      renderer: new PuppeteerRenderer({
+        // Wait to render until the element specified is detected with document.querySelector.
+        renderAfterElementExists: '#app',
+        // Wait to render until a specified event is fired on the document.
+        // renderAfterDocumentEvent: 'my-document-event'
+        // Renders after 5000 milliseconds. (5 seconds.)
+        // renderAfterTime: 5000
+      })
+      // renderer: new JSDOMRenderer()
+    }),
   ]
 })
 
