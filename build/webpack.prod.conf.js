@@ -33,31 +33,6 @@ const webpackConfig = merge(baseWebpackConfig, {
     chunkFilename: utils.assetsPath('js/[id].[chunkhash].js')
   },
   plugins: [
-
-    // new PrerenderSPAPlugin({
-    //   staticDir: path.join(__dirname, 'dist'),
-    //   routes: [
-    //     '/',
-    //     '/denke',
-    //     '/cases',
-    //     '/cases/spreequell',
-    //     '/cases/arnecke-sibeth-dabelstein',
-    //     '/cases/rueckblende',
-    //     '/cases/hartmannbund',
-    //     '/cases/energie-update',
-    //     '/impressum',
-    //     '/datenschutz',
-    //     '/cases/metagate'
-    //   ],
-    //   renderer: new Renderer({
-    //     inject: {
-    //       foo: 'bar'
-    //     },
-    //     headless: false,
-    //     renderAfterDocumentEvent: 'render-event'
-    //   })
-    // }),
-
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
     new webpack.DefinePlugin({
       'process.env': env
@@ -133,7 +108,8 @@ const webpackConfig = merge(baseWebpackConfig, {
     }),
 
     new PrerenderSPAPlugin({
-      staticDir: __dirname, // The path to the folder where index.html is.
+      staticDir: path.resolve(__dirname, '..', 'dist'),
+      // staticDir: path.join(__dirname, 'dist'),
       routes: [
         '/',
         '/denke',
@@ -145,17 +121,11 @@ const webpackConfig = merge(baseWebpackConfig, {
         '/cases/energie-update',
         '/impressum',
         '/datenschutz',
-        '/cases/metagate'
       ], // List of routes to prerender.
       renderer: new PuppeteerRenderer({
-        // Wait to render until the element specified is detected with document.querySelector.
-        renderAfterElementExists: '#app',
-        // Wait to render until a specified event is fired on the document.
-        // renderAfterDocumentEvent: 'my-document-event'
-        // Renders after 5000 milliseconds. (5 seconds.)
-        // renderAfterTime: 5000
+        // renderAfterElementExists: '#app',
+        renderAfterTime: 5000
       })
-      // renderer: new JSDOMRenderer()
     }),
   ]
 })

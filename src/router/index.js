@@ -39,10 +39,10 @@ export default new Router({
     { path: '/cases/arnecke-sibeth-dabelstein', component: Asd },
     { path: '/cases/rueckblende', component: Rueckblende },
     { path: '/cases/hartmannbund', component: Hartmannbund },
-    { path: '/cases/energie-update', component: EnergieUpdate },
     { path: '/impressum', component: Impressum },
     { path: '/datenschutz', component: Datenschutz },
+    // { path: '/cases/energie-update', component: EnergieUpdate },
     // { path: '/cases/:slug', component: CaseSingle },
-    { path: '/cases/metagate', component: Metagate }
+    // { path: '/cases/metagate', component: Metagate }
   ]
 })
