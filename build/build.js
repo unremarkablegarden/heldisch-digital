@@ -17,30 +17,30 @@ spinner.start()
 const PrerenderSPAPlugin = require('prerender-spa-plugin');
 const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
 
-webpackConfig.plugins.push(
-  new PrerenderSPAPlugin({
-    staticDir: path.resolve(__dirname, '..', 'dist'),
-    // staticDir: path.join(__dirname, ,'..', 'dist'),
-    routes: [
-      '/',
-      '/denke',
-      '/cases',
-      '/cases/spreequell',
-      '/cases/arnecke-sibeth-dabelstein',
-      '/cases/rueckblende',
-      '/cases/hartmannbund',
-      '/cases/energie-update',
-      '/impressum',
-      '/datenschutz',
-    ],
-    renderer: new Renderer({
-      injectProperty: '__PRERENDER_INJECTED',
-      inject: {
-        prerendered: true
-      },
-      renderAfterDocumentEvent: 'app.rendered'
-    })
-  }));
+// webpackConfig.plugins.push(
+//   new PrerenderSPAPlugin({
+//     staticDir: path.resolve(__dirname, '..', 'dist'),
+//     // staticDir: path.join(__dirname, ,'..', 'dist'),
+//     routes: [
+//       '/',
+//       '/denke',
+//       '/cases',
+//       '/cases/spreequell',
+//       '/cases/arnecke-sibeth-dabelstein',
+//       '/cases/rueckblende',
+//       '/cases/hartmannbund',
+//       '/cases/energie-update',
+//       '/impressum',
+//       '/datenschutz',
+//     ],
+//     renderer: new Renderer({
+//       injectProperty: '__PRERENDER_INJECTED',
+//       inject: {
+//         prerendered: true
+//       },
+//       renderAfterDocumentEvent: 'app.rendered'
+//     })
+//   }));
 
 rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
   if (err) throw err

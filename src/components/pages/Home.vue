@@ -32,7 +32,7 @@
             a(href='cases/hartmannbund') Mehr zeigen
           .glide__slide
             img(src='../../assets/img/cases/asd/thumbnail@2x.jpg', alt='Responsive Website für die Wirtschaftskanzlei Arnecke Sibeth Dabelstein von HELDISCH Digital').figure
-            a(href='cases/asd') Mehr zeigen
+            a(href='cases/arnecke-sibeth-dabelstein/') Mehr zeigen
           .glide__slide
             img(src='../../assets/img/cases/rueckblende/thumbnail@2x.jpg', alt='Webplattform für Landesvertretung Rheinland-Pfalz von HELDISCH Digital').figure
             a(href='cases/rueckblende') Mehr zeigen

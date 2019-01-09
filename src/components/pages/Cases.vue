@@ -39,14 +39,14 @@
       .column.is-5.is-offset-1.image
         // .triangle.is-hidden-mobile
         img(src='../../assets/img/cases/mockups/hb_mockup.png')
-  section.section.project.asd.hero#asd
+  section.section.project.asd.hero#arnecke-sibeth-dabelstein
     .columns
       .column.is-5.is-offset-1
         .content
-          a(href='cases/arnecke-sibeth-dabelstein')
+          a(href='/cases/arnecke-sibeth-dabelstein')
             img(src='../../assets/svg/fwd_btn.svg').icon
           .project-head
-            a(href='cases/asd')
+            a(href='/cases/arnecke-sibeth-dabelstein')
             h3 Arnecke Siebeth Dabelstein
             .subtitle Die Wirtschaftskanzlei
           hr

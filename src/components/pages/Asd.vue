@@ -4,7 +4,7 @@
     .hero-body.no-padding
       .columns
         .column.is-5.is-offset-1.desktop-title.is-hidden-mobile
-          a(href="/cases#asd")
+          a(href="/cases/#arnecke-sibeth-dabelstein")
             img.back-btn(src='../../assets/svg/back_btn.svg')
           h1.case-title Arnecke Sibeth Dabelstein
           .subtitle Die Wirtschaftskanzlei
