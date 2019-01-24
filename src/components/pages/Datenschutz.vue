@@ -60,7 +60,7 @@
             br
             | E-Mail:
             a(href='mailto:meinehelden@heldisch.com')
-              span.s2 404@heldisch-digital.com
+              span.s2 404[at]heldisch-digital.com
             br
             | URL: www.heldisch-digital.com
         p.p7
@@ -79,7 +79,7 @@
             br
             | E-Mail:
             a(href='mailto:meinehelden@heldisch.com')
-              span.s2 tmatsiridis@heldisch-digital.com
+              span.s2 tmatsiridis[at]heldisch-digital.com
         p.p7
           span.s1
             b § 2 Begriffsbestimmung
@@ -621,7 +621,7 @@ export default {
     meta: [
       {
         name: 'description',
-        content: 'Agentur für Websites, digitale Projekte, Apps in Berlin Kreuzberg ✓, Tel.: 030/6165738-0, E-Mail: 404@heldisch-digital.com, jetzt anrufen und informieren!'
+        content: 'Agentur für Websites, digitale Projekte, Apps in Berlin Kreuzberg ✓, Tel.: 030/6165738-0, E-Mail: 404[at]heldisch-digital.com, jetzt anrufen und informieren!'
       },
       {
         name: 'keywords',

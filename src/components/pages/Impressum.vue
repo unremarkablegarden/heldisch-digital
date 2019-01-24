@@ -16,7 +16,7 @@
           br
           |  Fax: +49 (0)30 616 57 38-66
           br
-          |  E-Mail: 404@heldisch-digital.com
+          |  E-Mail: 404[at]heldisch-digital.com
           br
           |  URL: www.heldisch-digital.com
 
@@ -42,7 +42,7 @@ export default {
     meta: [
       {
         name: 'description',
-        content: 'Agentur fü+r Websites, digitale Projekte, Apps in Berlin Kreuzberg ✓, Tel.: 030/6165738-0, E-Mail: 404@heldisch-digital.com, jetzt anrufen und informieren!'
+        content: 'Agentur fü+r Websites, digitale Projekte, Apps in Berlin Kreuzberg ✓, Tel.: 030/6165738-0, E-Mail: 404[at]heldisch-digital.com, jetzt anrufen und informieren!'
       },
       {
         name: 'keywords',
