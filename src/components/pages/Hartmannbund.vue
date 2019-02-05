@@ -23,25 +23,24 @@
       .columns
         .column.is-3.is-offset-3
           h4 Umsetzung
-          p Gestaltung und Programmierung einer responsiven Multi-Microsite
+          p Gestaltung und Programmierung einer responsiven Web-App
         .column.is-2.is-offset-1
           h4 Features
           ul
             li CMS keystone
             li Responsive
-            li Multiple
-            li ...
+            li Modular erweiterbar
   section.section.showcase
     .container.columns
       .column.is-4.is-offset-2
         h3 Erweiterbares Grundmenü
         p Events können leicht erstellt, archiviert und/oder gelöscht werden.
       .column.is-5.is-offset-1
-        img(src='../../assets/img/cases/hartmannbund/heldisch-digital-berlin-Hartmannbund-website-Event-App-1.png' alt="Heldisch digital Berlin Hartmannbund Website Event App 1")
+        img(src='../../assets/img/cases/hartmannbund/heldisch-digital-berlin-Hartmannbund-website-Event-App-2.png' alt="Heldisch digital Berlin Hartmannbund Website Event App 2")
   section.section.showcase
     .columns
       .column.is-5.is-offset-1
-        img(src='../../assets/img/cases/hartmannbund/heldisch-digital-berlin-Hartmannbund-website-Event-App-2.png' alt="Heldisch digital Berlin Hartmannbund Website Event App 2")
+        img(src='../../assets/img/cases/hartmannbund/heldisch-digital-berlin-Hartmannbund-website-Event-App-3.png' alt="Heldisch digital Berlin Hartmannbund Website Event App 3")  
       .column.is-4
         h3 Erstellung der Events
         p Jedes Event erhält automatisch seine eigene URL und kann in einem eigenen Content Management System bearbeitet werden.
@@ -51,7 +50,8 @@
         h3 Keine unnötige Verwirrung
         p Die Teilnehmer finden in dieser übersichtlichen App alle relevanten Dokumente und Informationen wie Tagesprogramm, Akteure und können zwischen diesen schnell hin- und herswitchen.
       .column.is-5
-        img(src='../../assets/img/cases/hartmannbund/heldisch-digital-berlin-Hartmannbund-website-Event-App-3.png' alt="Heldisch digital Berlin Hartmannbund Website Event App 3")
+        img(src='../../assets/img/cases/hartmannbund/heldisch-digital-berlin-Hartmannbund-website-Event-App-1.png' alt="Heldisch digital Berlin Hartmannbund Website Event App 1")
+        
   section.section.showcase
     .container.columns
       .column.is-4.is-offset-1
@@ -70,13 +70,13 @@
           br
           | TEN
       .column.is-4
-        h3 20.000
+        h3 2.000
         .subtitle Teilnehmer
-        p Im Laufe der Zeit wurden mehr als 20 Events mit der App generiert. Bei durchschnittlich 100 Besuchern pro Event und zahlreichen Informationen, ...
+        p Im Laufe der Zeit wurden mehr als 20 Events mit der App generiert. 
       .column.is-4
         h3 300.000
         .subtitle Ausdrucke
-        p ... die u. a. als PDF in der App bereitgestellt werden, konnten bereits über 300.000 Seiten Papier <i>eingespart</i> werden.
+        p Bei durchschnittlich 100 Besuchern pro Event und zahlreichen Informationen, die u. a. als PDF in der App bereitgestellt werden, konnten bereits über 300.000 Seiten Papier eingespart werden.
 </template>
 
 <script>

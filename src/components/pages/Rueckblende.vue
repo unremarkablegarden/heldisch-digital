@@ -25,7 +25,7 @@
           h4 Umsetzung
           p Entwicklung, Gestaltung und Programmierung einer Web-Plattform mit diversen Filtermöglichkeiten und Schaffung eines User-Accountsystems zum selbständigen Datei-Upload
         .column.is-2.is-offset-1
-          h4 Weg
+          h4 Features
           ul
             li CMS WordPress
             li Responsive
@@ -75,11 +75,11 @@
       .column.is-4
         h3 15.500
         .subtitle Fotografien
-        p Die Herausforderung dieses Projektes war in erster Linie die automatisierte Übertragung von mehr als 25.000 Datensätzen und ihren einzelnen
+        p Die Herausforderung dieses Projektes war in erster Linie die automatisierte Übertragung von mehr als 25.000 Datensätzen und ihren einzelnen...
       .column.is-4
         h3 10.000
         .subtitle Karikaturen
-        p Ausprägungen auf einen hierfür speziell eingerichteten Server und deren Darstellung auf der neu entwickelten Web-Plattform.
+        p ...Ausprägungen auf einen hierfür speziell eingerichteten Server und deren Darstellung auf der neu entwickelten Web-Plattform.
 </template>
 
 <script>

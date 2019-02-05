@@ -70,11 +70,11 @@
       .column.is-4
         h3 300
         .subtitle Anwaltseiten
-        p Die Herausforderung dieses Projektes war angesichts von über 300 Anwaltsprofilen, 6 Standorten und einer Vielzahl von Kompetenzen eine
+        p Die Herausforderung dieses Projektes war angesichts von über 300 Anwaltsprofilen, 6 Standorten und einer Vielzahl von Kompetenzen eine...
       .column.is-4
         h3 6
         .subtitle Standorte
-        p Website zu entwickeln, die benutzerfreundlich ist und den ästhetischen Ansprüchen dieses Segmentes gerecht wird.
+        p ...Website zu entwickeln, die benutzerfreundlich ist und den ästhetischen Ansprüchen dieses Segmentes gerecht wird.
 </template>
 
 <script>
