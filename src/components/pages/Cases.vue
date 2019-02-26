@@ -80,7 +80,7 @@
               h3 Ton Ton et Fils
               .subtitle Les vêtements de labeur à la française.
           hr
-          p Gestaltung und Aufsetzen eine e-shops
+          p Gestaltung und Aufsetzen eines Webshops
       .column.is-5.is-offset-1.image
         // .triangle.is-hidden-mobile
         img(src='../../assets/img/cases/tonton/heldisch-digital-tonton-et-fils-webshop-cases.png')
