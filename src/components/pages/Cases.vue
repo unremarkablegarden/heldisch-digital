@@ -69,6 +69,21 @@
       .column.is-5.is-offset-1.image
         // .triangle.is-hidden-mobile
         img(src='../../assets/img/cases/mockups/rlpz_mockup.png')
+  section.section.project.tonton.hero#tonton
+    .columns
+      .column.is-5.is-offset-1
+        .content
+          a(href='/cases/tonton')
+            img(src='../../assets/svg/fwd_btn.svg').icon
+          .project-head
+            a(href='/cases/tonton')
+              h3 Ton Ton et Fils
+              .subtitle Les vêtements de labeur à la française.
+          hr
+          p Gestaltung und Aufsetzen eine e-shops
+      .column.is-5.is-offset-1.image
+        // .triangle.is-hidden-mobile
+        img(src='../../assets/img/cases/tonton/heldisch-digital-tonton-et-fils-webshop-cases.png')
   //- section.section.project.energie-update#energie-update
   //-   .columns
   //-     .column.is-5.is-offset-1
@@ -118,6 +133,7 @@ $asd: #DEDEDE
 $rueckblende: #E5DF92
 $energie-update: #B9D670
 $hartmannbund: #bbdef7
+$tonton: #15294e
 
 .page
   line-height: 1.5
@@ -176,7 +192,7 @@ $hartmannbund: #bbdef7
     .subtitle
       opacity: .9
   .columns
-    +mobile
+    +tablet
       margin: 0
   .column
     display: flex
@@ -270,6 +286,8 @@ $hartmannbund: #bbdef7
   background: $energie-update
 .hartmannbund
   background: $hartmannbund
+.tonton
+  background: $tonton
 
 section.section
   padding: 8rem 1.5rem

@@ -8,7 +8,7 @@
             img.back-btn(src='../../assets/svg/back_btn.svg')
           h1.case-title Spreequell
           .subtitle Volle Pulle Leben
-        .column.is-10.hero-image
+        .column.is-7.hero-image
           img(src='../../assets/img/cases/spreequell/heldisch-digital-berlin-websitegestatung-spreequell.png').is-pulled-right.hero-img
         .mobile-title.is-hidden-desktop
           a(href="/cases#spreequell")
@@ -20,7 +20,7 @@
       .columns
         .column.is-6.is-offset-3
           h3 Aufgabe
-          .subtitle Entwicklung, Gestaltung und Programmierung einer Website passend zur parallel laufenden Print-Kampagne mit der Möglichkeit, sich als User sein eigenes Flaschen-Label zu generieren und im Rahmen eines Gewinnspiels einzusenden
+          .subtitle Entwicklung, Gestaltung und Programmierung einer Website passend zur parallel laufenden Print-Kampagne mit der Möglichkeit, sich als User sein eigenes Flaschen-Label zu generieren und im Rahmen eines Gewinnspiels einzusenden
       .columns
         .column.is-3.is-offset-3
           h4 Umsetzung
@@ -39,7 +39,7 @@
     .container.columns
       .column.is-4.is-offset-2
         h2 Volle Pulle Technik
-        p Die jährliche Spreequell-Kampagne „Volle Pulle Leben“ wird stets digital begleitet. Auf der Kampagnen-Website können Besucher ihr eigenes Flaschen-Label kreieren und für einen guten Zweck einreichen.
+        p Die jährliche Spreequell-Kampagne „Volle Pulle Leben“ wird stets digital begleitet. Auf der Kampagnen-Website können Besucher ihr eigenes Flaschen-Label kreieren und für einen guten Zweck einreichen.
       .column.is-4.is-offset-1
         img(src='../../assets/img/cases/spreequell/heldisch-digital-berlin-website-cms-spreequell-1.png' alt='Heldisch Website Spreequell')
   section.section.showcase
@@ -48,12 +48,12 @@
         img(src='../../assets/img/cases/spreequell/heldisch-digital-berlin-websitegestatung-spreequell-2.png' alt='Heldisch Website Content Management System Spreequell')
       .column.is-4
         h3 Gestaltung eines eigenen Flaschen-Labels
-        p Auswahl des gewünschten Geschmacks (Farbe), der Mundform sowie Eingabe eines Spruches. Automatische Anpassung der Schriftgröße je nach Textlänge. Die kreativsten Sprüche landeten in den Regalen der Supermärkten.
+        p Auswahl des gewünschten Geschmacks (Farbe), der Mundform sowie Eingabe eines Spruches. Automatische Anpassung der Schriftgröße je nach Textlänge. Die kreativsten Sprüche landeten in den Regalen der Supermärkten. 
   section.section.showcase
     .columns
       .column.is-4.is-offset-2
         h3 Handling der Einsendungen
-        p Übersichtliche Darstellung der eingesendeten Daten mit der Möglichkeit, diese zu korrigieren und freizuschalten. Der Teilnehmer bekommt automatisch eine Benachrichtigung via E-Mail, sobald seine Einsendung freigeschaltet wird.
+        p Übersichtliche Darstellung der eingesendeten Daten mit der Möglichkeit, diese zu korrigieren und freizuschalten. Der Teilnehmer bekommt automatisch eine Benachrichtigung via E-Mail, sobald seine Einsendung freigeschaltet wird.
       .column.is-5
         img(src='../../assets/img/cases/spreequell/heldisch-digital-berlin-website-cms-spreequell-3.png' alt='Heldisch Website Spreequell')
   section.section.showcase
@@ -62,7 +62,7 @@
         img(src='../../assets/img/cases/spreequell/heldisch-digital-berlin-websiteprogrammierung-spreequell-4.png' alt='Heldisch Website Spreequell')
       .column.is-4
         h3 Trinken für den guten Zweck
-        p Mit jeder freigeschalteten Einsendung wird 1 € an ausgewählte Jugendprojekte gespendet. Der Counter auf der Startseite zeigt die tagesaktuelle Spendensumme an.
+        p Mit jeder freigeschalteten Einsendung wird 1 € an ausgewählte Jugendprojekte gespendet. Der Counter auf der Startseite zeigt die tagesaktuelle Spendensumme an.
 
   section.section.fakten-image.no-padding
     img(src='../../assets/img/cases/spreequell/mock_up_bottom@2x.png').bottom-img
@@ -81,7 +81,7 @@
       .column.is-4
         h3 4.000
         .subtitle Euro
-        p Über 4.000,00 € Euro wurden über den Label-Generator eingenommen und an zwei Berliner Jugendprojekte gespendet.
+        p Über 4.000,00 € Euro wurden über den Label-Generator eingenommen und an zwei Berliner Jugendprojekte gespendet.
 </template>
 
 <script>
@@ -141,7 +141,7 @@ $blue: #2C90E9
   .back-btn
     width: 40px
     height: auto
-  +mobile
+  +tablet
     .columns
       margin: 0
     .hero-image

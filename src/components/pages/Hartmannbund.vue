@@ -3,12 +3,12 @@
   section.hero
     .hero-body.no-padding
       .columns
-        .column.is-5.is-offset-1.desktop-title.is-hidden-mobile
+        .column.is-4.is-offset-1.desktop-title.is-hidden-mobile
           a(href="/cases#hartmannbund")
             img.back-btn(src='../../assets/svg/back_btn.svg')
           h1.case-title Hartmannbund
           .subtitle Verband der Ärzte Deutschlands e. V.
-        .column.is-9.hero-image
+        .column.is-7.hero-image
           img(src='../../assets/img/cases/hartmannbund/heldisch-digital-berlin-Hartmannbund-website-Event-App.png' alt="heldisch-digital-Hartmannbund-website-Event-App").is-pulled-right.hero-img
         .mobile-title.is-hidden-desktop
           img.back-btn(src='../../assets/svg/back_btn.svg')
@@ -76,7 +76,7 @@
       .column.is-4
         h3 300.000
         .subtitle Ausdrucke
-        p Bei durchschnittlich 100 Besuchern pro Event und zahlreichen Informationen, die u. a. als PDF in der App bereitgestellt werden, konnten bereits über 300.000 Seiten Papier eingespart werden.
+        p Bei durchschnittlich 100 Besuchern pro Event und zahlreichen Informationen, die u. a. als PDF in der App bereitgestellt werden, konnten bereits über 300.000 Seiten Papier eingespart werden.
 </template>
 
 <script>
@@ -135,11 +135,11 @@ $light-blue: #bbdef7
   .back-btn
     width: 40px
     height: auto
-  +mobile
+  +tablet
     .columns
       margin: 0
     .hero-image
-      padding: 0
+      padding: 0     
   .mobile-title
     margin: 1em
   .desktop-title

@@ -31,6 +31,9 @@
   #logo.pink
     a(href='/')
       img(src="../assets/svg/HELDISCH_Logo_pink.svg", alt="Heldisch Digital")
+  #logo.white
+    a(href='/')
+      img(src="../assets/svg/HELDISCH_Logo_white.svg", alt="Heldisch Digital")
   #logo.orange
     a(href='/')
       img(src="../assets/svg/HELDISCH_Logo_yellow.svg", alt="Heldisch Digital")
@@ -66,7 +69,7 @@ export default {
   z-index: 909
   +mobile
     right: 1rem
-  border: 3px #FED4D5 solid
+  border: 3px #fbe5e6 solid
   display: flex
   align-items: center
   justify-content: space-around
@@ -87,7 +90,7 @@ export default {
       transition: all 200ms
       width: 2rem
       height: 5px
-      background: #FED4D5
+      background: #fbe5e6
       border-radius: 2.5px
       position: absolute
       left: 12px
@@ -97,7 +100,7 @@ export default {
         top: 30px
 
 #site-menu
-  background: #fce5e6
+  background: #ffb1b7
   position: fixed
   width: 100vw
   height: 100vh
@@ -191,15 +194,21 @@ export default {
 
 .home
   #masthead
-    background: #fff
+    background: #f4acbb  
     #menu-button
-      border-color: #FED4D5
+      border-color: #fbe5e5
       .burger
-        border-color: #FED4D5
+        border-color: #fbe5e5
         .line
-          background: #FED4D5
+          background: #fbe5e5
     #logo.pink
+      display: none
+    #logo.white
       display: block
+      +desktop
+        transform: translateY(3vh)
+        img
+          width: 230px
     #logo.orange
       display: none
 .denke
@@ -212,9 +221,19 @@ export default {
           background: #fbbf2c
     #logo.pink
       display: none
+    #logo.white
+      display: none
     #logo.orange
       display: block
-.rueckblende, .energie-update, .hartmannbund, .asd, .rueckblende, .spreequell
+.cases
+  #masthead
+    #logo.pink
+      display: block
+    #logo.white
+      display: none
+    #logo.orange
+      display: none
+.rueckblende, .energie-update, .hartmannbund, .asd, .rueckblende, .spreequell, .tonton
   #masthead
     padding-bottom: 6em !important
     #menu-button
@@ -241,5 +260,9 @@ export default {
 .hartmannbund
   #masthead
     background: #bbdef7
+    padding-bottom: 3em
+.tonton
+  #masthead
+    background: #15294e
     padding-bottom: 3em
 </style>

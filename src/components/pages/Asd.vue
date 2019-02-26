@@ -8,7 +8,7 @@
             img.back-btn(src='../../assets/svg/back_btn.svg')
           h1.case-title Arnecke Sibeth Dabelstein
           .subtitle Die Wirtschaftskanzlei
-        .column.is-8.hero-image
+        .column.is-6.hero-image
           img(src='../../assets/img/cases/asd/heldisch-digital-berlin-arnecke-sibeth-dabelstein-website.png' alt="Heldisch digital Berlin Arnecke Sibeth Dabelstein Website").is-pulled-right.hero-img
         .mobile-title.is-hidden-desktop
           img.back-btn(src='../../assets/svg/back_btn.svg')
@@ -30,7 +30,7 @@
             li CMS Wordpress
             li Diverse integrierte SEO-Tools
             li Automatisierter sowie manueller Language-Switcher
-            li Schnittstelle zu den Social Media Kanälen
+            li Schnittstelle zu den Social Media Kan&#228;len
             li Lazy load
             li Random-Funktionen
             li Schnittstelle für automatisierten Upload von Publikationen
@@ -39,7 +39,7 @@
     .container.columns
       .column.is-4.is-offset-2
         h2 Treffen sich drei Anwälte in der Bar ...
-        p Wenn drei international tätige Anwaltskanzleien beschließen zu fusionieren und unter einer gemeinsamen Dachmarke zu agieren, dann passiert sowas ...
+        p Wenn drei international tätige Anwaltskanzleien beschließen zu fusionieren und unter einer gemeinsamen Dachmarke zu agieren, dann passiert sowas ...
       .column.is-4.is-offset-1
         img(src='../../assets/img/cases/asd/heldisch-digital-berlin-arnecke-sibeth-dabelstein-website-1.png' alt="Heldisch digital Berlin Arnecke Sibeth Dabelstein Website 1")
   section.section.showcase
@@ -48,7 +48,7 @@
         img(src='../../assets/img/cases/asd/heldisch-digital-berlin-arnecke-sibeth-dabelstein-website-2.png' alt="Heldisch digital Berlin Arnecke Sibeth Dabelstein Website 2")
       .column.is-4
         h3 Intuitive Navigation, klarer Look
-        p Strukturierte Darstellung einer Vielzahl von Informationen, Anwälten, Kompetenzen, Publikationen, News ...
+        p Strukturierte Darstellung einer Vielzahl von Informationen, Anwälten, Kompetenzen, Publikationen, News ...
   section.section.showcase
     .columns
       .column.is-4.is-offset-2
@@ -74,7 +74,7 @@
       .column.is-4
         h3 6
         .subtitle Standorte
-        p ...Website zu entwickeln, die benutzerfreundlich ist und den ästhetischen Ansprüchen dieses Segmentes gerecht wird.
+        p ...Website zu entwickeln, die benutzerfreundlich ist und den &#228;sthetischen Ansprüchen dieses Segmentes gerecht wird.
 </template>
 
 <script>
@@ -85,7 +85,7 @@ export default {
     meta: [
       {
         name: 'description',
-        content: 'Umsetzung Website Arnecke Sibeth Dabelstein. Sie haben Fragen oder planen ein ähnliches Projekt für Ihr Unternehmen? Rufen Sie an! Tel.: 030/6165738-0'
+        content: 'Umsetzung Website Arnecke Sibeth Dabelstein. Sie haben Fragen oder planen ein &#228;hnliches Projekt für Ihr Unternehmen? Rufen Sie an! Tel.: 030/6165738-0'
       },
       {
         name: 'keywords',
@@ -135,7 +135,7 @@ $light-grey: #DEDEDE
   .back-btn
     width: 40px
     height: auto
-  +mobile
+  +tablet
     .columns
       margin: 0
     .hero-image

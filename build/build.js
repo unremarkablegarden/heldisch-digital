@@ -17,6 +17,8 @@ spinner.start()
 const PrerenderSPAPlugin = require('prerender-spa-plugin');
 const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
 
+//comment this out to create pre-render files for SEO. It breaks at some point, so comment it out again after using. 
+
 // webpackConfig.plugins.push(
 //   new PrerenderSPAPlugin({
 //     staticDir: path.resolve(__dirname, '..', 'dist'),

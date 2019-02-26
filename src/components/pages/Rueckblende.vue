@@ -8,7 +8,7 @@
             img.back-btn(src='../../assets/svg/back_btn.svg')
           h1.case-title LV Rheinland-Pfalz
           .subtitle Vertretung des Landes Rheinland-Pfalz beim Bund und bei der Europäischen Union
-        .column.is-9.hero-image
+        .column.is-6.hero-image
           img(src='../../assets/img/cases/rueckblende/heldisch-digital-berlin-LV-Rheinland-Pfalz-website.png' alt="(heldisch-digital-berlin-LV-Rheinland-Pfalz-website").is-pulled-right.hero-img
         .mobile-title.is-hidden-desktop
           img.back-btn(src='../../assets/svg/back_btn.svg')
@@ -37,7 +37,7 @@
     .container.columns
       .column.is-4.is-offset-2
         h2 Art comes first
-        p Der jährlich stattfindende Fotografie- und Karikatur-Wettbewerb „Rückblende“ bietet deutschen Künstlern seit 2006 eine Plattform für politische Kunst.
+        p Der jährlich stattfindende Fotografie- und Karikatur-Wettbewerb „Rückblende“ bietet deutschen Künstlern seit 2006 eine Plattform für politische Kunst.
       .column.is-4.is-offset-1
         img(src='../../assets/img/cases/rueckblende/heldisch-digital-berlin-LV-Rheinland-Pfalz-website-1.png' alt="Heldisch digital Berlin LV Rheinland-Pfalz Website 1")
   section.section.showcase
@@ -45,13 +45,13 @@
       .column.is-5.is-offset-1
         img(src='../../assets/img/cases/rueckblende/heldisch-digital-berlin-LV-Rheinland-Pfalz-website-2.png' alt="Heldisch digital Berlin LV Rheinland-Pfalz Website 2")
       .column.is-4
-        h3 Der Wettbewerb: Einfach übersichtlich
-        p Darstellung aller Einreichungen sortiert nach Kategorie, Künstler und Gewinner
+        h3 Der Wettbewerb: Einfach übersichtlich
+        p Darstellung aller Einreichungen sortiert nach Kategorie, Künstler und Gewinner
 
   section.section.showcase
     .columns
       .column.is-4.is-offset-2
-        h3 Ein Archiv für alle: Filter, Fächer, Slider
+        h3 Ein Archiv für alle: Filter, Fächer, Slider
         p Das Finden einer bestimmten Karikatur oder einer Fotografie in einem Archiv mit mehr als 25.000 Einreichungen leicht gemacht. Sogar mobil.
       .column.is-5
         img(src='../../assets/img/cases/rueckblende/heldisch-digital-berlin-LV-Rheinland-Pfalz-website-3.png' alt="Heldisch digital Berlin LV Rheinland-Pfalz Website 3")
@@ -60,8 +60,8 @@
       .column.is-4.is-offset-1
         img(src='../../assets/img/cases/rueckblende/heldisch-digital-berlin-LV-Rheinland-Pfalz-website-4.png' alt="Heldisch digital Berlin LV Rheinland-Pfalz Website 4")
       .column.is-4
-        h3 Für jeden Künstler ein eigenes Atelier
-        p Fotografen und Karikaturisten legen eigenständig Nutzer-Accounts an, um ihre Werke hochzuladen, zu benennen und einzureichen.
+        h3 Für jeden Künstler ein eigenes Atelier
+        p Fotografen und Karikaturisten legen eigenständig Nutzer-Accounts an, um ihre Werke hochzuladen, zu benennen und einzureichen.
   section.section.fakten-image.no-padding
     img(src='../../assets/img/cases/rueckblende/heldisch-digital-berlin-LV-Rheinland-Pfalz-website-5.png' alt="Heldisch digital Berlin LV Rheinland-Pfalz Website 5").bottom-img
     img(src='../../assets/img/cases/rueckblende/image_bottom_bg.jpg').bottom-img-bg
@@ -143,7 +143,7 @@ $dark-red: #871D33
   .back-btn
     width: 40px
     height: auto
-  +mobile
+  +tablet
     .columns
       margin: 0
     .hero-image

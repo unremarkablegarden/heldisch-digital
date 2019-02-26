@@ -11,7 +11,7 @@ import Asd from '@/components/pages/Asd'
 import Rueckblende from '@/components/pages/Rueckblende'
 import EnergieUpdate from '@/components/pages/EnergieUpdate'
 import Hartmannbund from '@/components/pages/Hartmannbund'
-import Metagate from '@/components/pages/Metagate'
+import TonTon from '@/components/pages/TonTon'
 
 import Impressum from '@/components/pages/Impressum'
 import Datenschutz from '@/components/pages/Datenschutz'
@@ -39,6 +39,7 @@ export default new Router({
     { path: '/cases/arnecke-sibeth-dabelstein', component: Asd },
     { path: '/cases/rueckblende', component: Rueckblende },
     { path: '/cases/hartmannbund', component: Hartmannbund },
+    { path: '/cases/tonton', component: TonTon },
     { path: '/impressum', component: Impressum },
     { path: '/datenschutz', component: Datenschutz },
     // { path: '/cases/energie-update', component: EnergieUpdate },

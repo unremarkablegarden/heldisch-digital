@@ -5,7 +5,7 @@
       video(v-if="!isMobile()" autoplay muted loop ref='video' preload='auto').home
         source(src="../../assets/video/video_header.webm", type="video/webm")
         source(src="../../assets/video/video_header.mp4", type="video/mp4")
-      img(v-if="isMobile()" src='../../assets/img/monitor_weit_mobile_900px.jpg')
+      img(v-if="isMobile()" src='../../assets/img/monitor_weit_900.jpg')
   section.section.intro.is-centered
     .container
       .columns
@@ -17,7 +17,7 @@
             br
             | Unsere Arbeit verbindet Aufmerksamkeit und
             br
-            | starken Support mit bester Qualität.
+            | starken Support mit bester Qualität.
           a(href='/denke') Denke
 
   section.section.project-slider
@@ -28,7 +28,7 @@
             img(src='../../assets/img/cases/spreequell/thumbnail@2x.jpg')
             a(href='cases/spreequell', alt='Kampagnen-Website für Spreequell von HELDISCH Digital') Mehr zeigen
           .glide__slide
-            img(src='../../assets/img/cases/hartmannbund/hartmannbund_slider.jpg', alt='Website für den Hartmannbund Vertretung der Ärzte Deutschlands von HELDISCH Digital').figure
+            img(src='../../assets/img/cases/hartmannbund/hartmannbund_slider.jpg', alt='Website für den Hartmannbund Vertretung der rzte Deutschlands von HELDISCH Digital').figure
             a(href='cases/hartmannbund') Mehr zeigen
           .glide__slide
             img(src='../../assets/img/cases/asd/thumbnail@2x.jpg', alt='Responsive Website für die Wirtschaftskanzlei Arnecke Sibeth Dabelstein von HELDISCH Digital').figure
@@ -36,6 +36,9 @@
           .glide__slide
             img(src='../../assets/img/cases/rueckblende/thumbnail@2x.jpg', alt='Webplattform für Landesvertretung Rheinland-Pfalz von HELDISCH Digital').figure
             a(href='cases/rueckblende') Mehr zeigen
+          .glide__slide
+            img(src='../../assets/img/cases/tonton/heldisch-digital-tonton-et-fils-webshop-thumb.jpg', alt='HELDISCH digital Design Web-Shop Tonton et Fils').figure
+            a(href='cases/tonton') Mehr zeigen
       .glide__arrows(data-glide-el='controls').is-hidden-mobile
         button.glide__arrow.glide__arrow--left(data-glide-dir='<')
           img(src='../../assets/svg/arrow_left.svg').figure
@@ -67,7 +70,7 @@
               source(src="../../assets/ani_icons/pen_icon.webm", type="video/webm")
               source(src="../../assets/ani_icons/pen_icon.mp4", type="video/mp4")
             h4.title Konzeption &amp; Beratung
-            p Digitalisierung bedeutet Veränderung – für jeden auf unterschiedliche Art. Die digitale Idealform Ihrer Organisation finden Sie mit uns. In Workshops und anhand von Analysen und Prototypen entwickeln wir mit Ihnen eine digitale Strategie, die für Sie passt – und setzen diese gemeinsam um.
+            p Digitalisierung bedeutet Veränderung – für jeden auf unterschiedliche Art. Die digitale Idealform Ihrer Organisation finden Sie mit uns. In Workshops und anhand von Analysen und Prototypen entwickeln wir mit Ihnen eine digitale Strategie, die für Sie passt – und setzen diese gemeinsam um.
           .column.is-3
             img(src="../../assets/ani_icons/design_icon.gif", alt="Design & User Experience: Web-Design und UX-Design von HELDISCH Digital")
             //-video(autoplay muted loop ref='video').graphic
@@ -81,14 +84,14 @@
               source(src="../../assets/ani_icons/screens_icon.webm", type="video/webm")
               source(src="../../assets/ani_icons/screens_icon.mp4", type="video/mp4")
             h4.title Programmierung &amp; CMS
-            p Wir lassen uns von Kundenbedürfnissen leiten – bei der Auswahl des passenden Content Management Systems ebenso wie bei der Suchmaschinenoptimierung. Wir programmieren Websites, Apps und andere digitale Objekte immer nach Ihren Wünschen und für einen geräteunabhängigen Gebrauch.
+            p Wir lassen uns von Kundenbedürfnissen leiten – bei der Auswahl des passenden Content Management Systems ebenso wie bei der Suchmaschinenoptimierung. Wir programmieren Websites, Apps und andere digitale Objekte immer nach Ihren Wünschen und für einen geräteunabhängigen Gebrauch.
           .column.is-3
             img(src='../../assets/ani_icons/content_icon.gif', alt="Content & Community: Erstellung Content für Web und Social Media von HELDISCH Digital")
             //- video(autoplay muted loop ref='video').graphic
               source(src="../../assets/ani_icons/content_icon.webm", type="video/webm")
               source(src="../../assets/ani_icons/content_icon.mp4", type="video/mp4")
             h4.title Content &amp; Community
-            p Man sollte in Sachen Social Media nicht auf jeden, sondern auf den richtigen Zug aufspringen. So führen exakte Planung, der passende Social Media Kanal, die Ausrichtung auf die Zielgruppe sowie eine permanente Analyse und Optimierung der Maßnahmen zum langfristigen Erfolg.
+            p Man sollte in Sachen Social Media nicht auf jeden, sondern auf den richtigen Zug aufspringen. So führen exakte Planung, der passende Social Media Kanal, die Ausrichtung auf die Zielgruppe sowie eine permanente Analyse und Optimierung der Maßnahmen zum langfristigen Erfolg.
         .glide_leistungen(v-if="windowWidth < 480 ")
           .glide__track(data-glide-el='track')
             .glide__slides
@@ -130,7 +133,7 @@
           img(src='../../assets/img/client_logos/02_Spreequell_Logo.jpg', alt='Gewinnspiele für Web für Spreequell')
           img(src='../../assets/img/client_logos/03_AEE_Logo.jpg', alt='Umsetzung Websites für die Agentur für Erneuerbare Energien von HELDISCH Digital')
           img(src='../../assets/img/client_logos/04_Sparda_Logo.jpg', alt='Web-Designs und Web-Banner für die Sparda Bank von HELDISCH Digital')
-          img(src='../../assets/img/client_logos/05_Hartmannbund_Logo.jpg', alt='Websites, App, Newsletter für den Hartmannbund die Vertretung der Ärzte Deutschlands')
+          img(src='../../assets/img/client_logos/05_Hartmannbund_Logo.jpg', alt='Websites, App, Newsletter für den Hartmannbund die Vertretung der Äzte Deutschlands')
         .column.is-one-fifth
           img(src='../../assets/img/client_logos/06_Coldseason_Logo.jpg', alt='Web Shop und Web-Design für Coldseason')
           img(src='../../assets/img/client_logos/07_Ubeeqo_Logo.jpg', alt='Web-Konzeption für carsharing UBEEQO')
@@ -357,12 +360,18 @@ export default {
     font-size: 1.2em
     font-style: italic
   .slider
-    background: linear-gradient(135deg, #facbd3 0%,#feebe0 100%)
+    background: #f2aeb7
     .hero-body
       padding: 0
       line-height: 0
+      +tablet
+        height: calc(100vh - 190px)
       img
         width: 100vw
+      video
+        +desktop
+          position: absolute
+        bottom: 0
   h3.title
     color: #ff615d
     font-size: 3.5em
