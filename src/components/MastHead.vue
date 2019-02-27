@@ -237,11 +237,15 @@ export default {
   #masthead
     padding-bottom: 6em !important
     #menu-button
-      border-color: #fff !important
+      border-color: #fff
+      &.active
+        border-color: #fbe5e6
+        .burger .line
+          background: #fbe5e6
     #menu
       border-color: #fff
     .burger .line
-      background: #fff!important
+      background: #fff
   #logo
     display: none
 .rueckblende

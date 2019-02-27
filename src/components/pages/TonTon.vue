@@ -3,12 +3,12 @@
   section.hero
     .hero-body.no-padding
       .columns
-        .column.is-4.is-offset-1.desktop-title.is-hidden-mobile
+        .column.is-3.is-offset-1.desktop-title.is-hidden-mobile
           a(href="/cases#tonton")
             img.back-btn(src='../../assets/svg/back_btn.svg')
           h1.case-title Tonton et Fils
           .subtitle Gestaltung und Aufsetzen eine Webshops
-        .column.is-7.hero-image
+        .column.is-8.hero-image
           img(src='../../assets/img/cases/tonton/heldisch-digital-Tonton-et-fils-webshop_hero.png' alt="HELDISCH digital Design Web-Shop Tonton et Fils 1").is-pulled-right.hero-img
         .mobile-title.is-hidden-desktop
           img.back-btn(src='../../assets/svg/back_btn.svg')
@@ -19,11 +19,11 @@
       .columns
         .column.is-6.is-offset-3
           h3 Aufgabe
-          .subtitle Konzept, Kreation und Aufsetzen eines e-shops inkl. diverser Apps dessen Look dem CI des Kunden gerecht wird.
+          .subtitle Konzept, Kreation und Aufsetzen eines webshops inkl. diverser Apps dessen Look dem CI des Kunden gerecht wird.
       .columns
         .column.is-3.is-offset-3
           h4 Umsetzung
-          p Gestaltung, Aufsetzen und Einrichten eines e-shops
+          p Gestaltung, Aufsetzen und Einrichten eines webshops
         .column.is-2.is-offset-1
           h4 Features
           ul
@@ -34,33 +34,34 @@
             li Einbettung Newslettersystem (MailChimp)
   section.section.showcase
     .container.columns
-      .column.is-4.is-offset-2
+      .column.is-3.is-offset-1
         h3 Rugged but Clean
         p Maximaler Raum für das Wesentliche - die Produkte. Kein Geschnörkel.
-      .column.is-5.is-offset-1
+      .column.is-6.is-offset-1
         img(src='../../assets/img/cases/tonton/heldisch-digital-tonton-et-fils-webshop-section-1.png' alt="HELDISCH digital Design Web-Shop Tonton et Fils 2")
   section.section.showcase
     .columns
       .column.is-5.is-offset-1
         img(src='../../assets/img/cases/tonton/heldisch-digital-tonton-et-fils-webshop-section-2.png' alt="HELDISCH digital Design Web-Shop Tonton et Fils 3")  
-      .column.is-4
+      .column.is-4.is-offset-1
         h3 Klare Linien
         p Der geradlinige und schlichte Stil der Produkte muss sich auch im Design des Shops widerspiegeln.
   section.section.showcase
     .columns
-      .column.is-4.is-offset-2
+      .column.is-3.is-offset-1
         h3 Mit Liebe zum Detail 1
         p Gestaltung und Einbettung individualisierter size charts 
-      .column.is-5
+      .column.is-6.is-offset-1
         img(src='../../assets/img/cases/tonton/heldisch-digital-tonton-et-fils-webshop-section-3.png' alt="HELDISCH digital Design Web-Shop Tonton et Fils 4")
         
-  section.section.showcase
+  section.section.showcase.last
     .container.columns
-      .column.is-4.is-offset-1
+      .column.is-5.is-offset-1
         img(src='../../assets/img/cases/tonton/heldisch-digital-tonton-et-fils-webshop-section-4.png' alt="HELDISCH digital Design Web-Shop Tonton et Fils 5")
       .column.is-4.is-offset-1
         h3 Mit Liebe zum Detail 2
         p Aufnahme und Integration des Corporate Designs
+  
   section.section.fakten-image.no-padding
     img(src='../../assets/img/cases/tonton/heldisch-digital-tonton-et-fils-webshop-bottom.png').bottom-img
     img(src='../../assets/img/cases/tonton/background-bottom.jpg').bottom-img-bg
@@ -74,10 +75,11 @@
       .column.is-4
         h3 100%
         .subtitle Rugged Style
+        p Tonton et Fils verfolgt ein Credo: Kaufe ein Kleidungsstück und trage es ein Leben lang und reiche es an die folgenden Generationen weiter.
       .column.is-4
         h3 100%
         .subtitle Made in France
-        p Tonton et Fils verfolgt ein Credo: Kaufe ein Kleidungsstück und trage es ein Leben lang! ….und reiche es an die folgenden Generationen weiter. So wird das Kleidungsstück  immer schöner… Stichworte: Patina. Beste Qualität. Hochwertige Stoffe. Handarbeit und Haltbarkeit. 
+        p So wird das Kleidungsstück immer schöner… Stichworte: Patina. Beste Qualität. Hochwertige Stoffe. Handarbeit und Haltbarkeit. 
 </template>
 
 <script>
@@ -140,6 +142,11 @@ $dark-blue: #15294e
     .columns
       margin: 0
     .hero-image
+      padding: 0  
+  +mobile
+    .columns
+      margin: 0
+    .hero-image
       padding: 0     
   .mobile-title
     margin: 1em
@@ -197,6 +204,9 @@ $dark-blue: #15294e
     margin-bottom: 1em
   .columns
     align-items: center
+  +tablet
+    &.last
+      margin-bottom: 4rem
 .fakten-image
   position: relative
   margin-bottom: -1rem
@@ -204,9 +214,10 @@ $dark-blue: #15294e
     position: absolute
     bottom: 10rem
     right: 0
-    width: 90vw
+    width: 75vw
     +mobile
-      width: 75vw
+      width: 100vw
+      bottom: 0
 .bottom-img-bg
   width: 100%
 .fakten

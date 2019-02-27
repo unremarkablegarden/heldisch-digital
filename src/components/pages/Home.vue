@@ -369,7 +369,7 @@ export default {
       img
         width: 100vw
       video
-        +desktop
+        +tablet
           position: absolute
         bottom: 0
   h3.title
