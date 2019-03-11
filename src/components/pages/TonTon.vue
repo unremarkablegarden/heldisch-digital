@@ -19,11 +19,11 @@
       .columns
         .column.is-6.is-offset-3
           h3 Aufgabe
-          .subtitle Konzept, Kreation und Aufsetzen eines webshops inkl. diverser Apps dessen Look dem CI des Kunden gerecht wird.
+          .subtitle Konzept, Kreation und Aufsetzen eines Webshops inkl. diverser Apps dessen Look dem CI des Kunden gerecht wird.
       .columns
         .column.is-3.is-offset-3
           h4 Umsetzung
-          p Gestaltung, Aufsetzen und Einrichten eines webshops
+          p Gestaltung, Aufsetzen und Einrichten eines Webshops
         .column.is-2.is-offset-1
           h4 Features
           ul

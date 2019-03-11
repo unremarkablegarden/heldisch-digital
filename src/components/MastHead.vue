@@ -180,6 +180,8 @@ export default {
     width: auto
     height: 40px
 #logo
+  position: relative
+  z-index: 909
   text-align: center
   // margin-bottom: 2rem
   img
