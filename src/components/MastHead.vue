@@ -127,7 +127,7 @@ export default {
     height: auto
   ul.nav
     text-align: right
-    z-index: 808
+    z-index: 909
     position: fixed
     right: 20px
     margin-right: 80px
@@ -181,7 +181,7 @@ export default {
     height: 40px
 #logo
   position: relative
-  z-index: 909
+  z-index: 808
   text-align: center
   // margin-bottom: 2rem
   img
