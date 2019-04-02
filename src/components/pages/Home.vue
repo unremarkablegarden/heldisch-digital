@@ -91,7 +91,7 @@
               source(src="../../assets/ani_icons/content_icon.webm", type="video/webm")
               source(src="../../assets/ani_icons/content_icon.mp4", type="video/mp4")
             h4.title Content &amp; Community
-            p Man sollte in Sachen Social Media nicht auf jeden, sondern auf den richtigen Zug aufspringen. So führen exakte Planung, der passende Social Media Kanal, die Ausrichtung auf die Zielgruppe sowie eine permanente Analyse und Optimierung der Maßnahmen zum langfristigen Erfolg.
+            p Man sollte in Sachen Social Media nicht auf jeden, sondern auf den richtigen Zug aufspringen. So führen exakte Planung, der passende Social Media Kanal, die Ausrichtung auf die Zielgruppe sowie der richtige Content zum langfristigen Erfolg.
         .glide_leistungen(v-if="windowWidth < 480 ")
           .glide__track(data-glide-el='track')
             .glide__slides
